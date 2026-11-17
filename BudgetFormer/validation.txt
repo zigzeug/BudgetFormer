@@ -4,7 +4,7 @@
 
 ### Proof of Concept (POC)
 - Standard Multi-Head Attention Baseline
-- AdaTransformer / BudgetFormer (Dynamic Adaptive Budget)
+- BudgetFormer (Dynamic Adaptive Budget)
 
 ### Ablations
 - Fixed Budget Allocation ($s \in \{0.1, 0.25, 0.5, 0.75, 1.0\}$)

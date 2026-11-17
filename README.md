@@ -37,17 +37,17 @@ The repository natively supports standard Hugging Face datasets:
 
 Train the baseline Transformer:
 ```bash
-python "AdaTransformer/1. POC/baseline.py"
+python "BudgetFormer/1. POC/baseline.py"
 ```
 
 Train BudgetFormer with dynamic head allocation:
 ```bash
-python "AdaTransformer/1. POC/adaT.py"
+python "BudgetFormer/1. POC/budgetformer.py"
 ```
 
 Run ablation studies (Fixed budgets, Random selection, Gating variants):
 ```bash
-python "AdaTransformer/1. POC/ablation.py"
+python "BudgetFormer/1. POC/ablation.py"
 ```
 
 ### 2. Pretrained Encoders
@@ -56,23 +56,23 @@ BudgetFormer is adapted across various transformer encoder backbones:
 
 - **BERT**:
   ```bash
-  python "AdaTransformer/2. Encoder/BERT/adaT.py"
+  python "BudgetFormer/2. Encoder/BERT/budgetformer.py"
   ```
 - **RoBERTa**:
   ```bash
-  python "AdaTransformer/2. Encoder/Roberta/adaT.py"
+  python "BudgetFormer/2. Encoder/Roberta/budgetformer.py"
   ```
 - **DistilBERT**:
   ```bash
-  python "AdaTransformer/2. Encoder/DistilBERT/adaT.py"
+  python "BudgetFormer/2. Encoder/DistilBERT/budgetformer.py"
   ```
 - **DeBERTa**:
   ```bash
-  python "AdaTransformer/2. Encoder/Deberta/adaT.py"
+  python "BudgetFormer/2. Encoder/Deberta/budgetformer.py"
   ```
 - **Longformer**:
   ```bash
-  python "AdaTransformer/2. Encoder/LongFormer/adaT.py"
+  python "BudgetFormer/2. Encoder/LongFormer/budgetformer.py"
   ```
 
 ### 3. Decoder Models
@@ -81,13 +81,13 @@ Test autoregressive and decoder architectures with KV-cache support:
 
 ```bash
 # In-distribution training
-python "AdaTransformer/3. Deocder/adaT/scratch.py"
+python "BudgetFormer/3. Decoder/budgetformer/scratch.py"
 
 # Out-of-distribution (OOD) evaluation
-python "AdaTransformer/3. Deocder/adaT/ood.py"
+python "BudgetFormer/3. Decoder/budgetformer/ood.py"
 
 # Instruction fine-tuning
-python "AdaTransformer/3. Deocder/adaT/instruct.py"
+python "BudgetFormer/3. Decoder/budgetformer/instruct.py"
 ```
 
 ### 4. Task-Specific Benchmarks
@@ -95,7 +95,7 @@ python "AdaTransformer/3. Deocder/adaT/instruct.py"
 Run dedicated task experiments:
 
 ```bash
-cd "AdaTransformer/ada_transformer/adaT/snli"
+cd "BudgetFormer/benchmarks/budgetformer/snli"
 python main.py
 ```
 
@@ -130,14 +130,23 @@ Ablation evaluation comparing fixed budgets ($s \in \{0.1, 0.25, 0.5, 0.75, 1.0\
 ## Implementation & Methodology Notes
 
 ### 1. Architectural Configuration (Paper Results vs. POC Exploration)
-- **Paper Benchmark Configuration**: The official benchmark results in the paper were produced using **4 layers (blocks)** and **8 attention heads** with hidden dimension $d_{\text{model}} = 768$ (as specified in `AdaTransformer/ada_transformer/adaT/*/main.py`).
-- **Exploratory POC Configuration**: The proof-of-concept script (`AdaTransformer/1. POC/adaT.py`) contains a scaled configuration with **6 layers and 12 heads** used for larger-scale architecture exploration.
+- **Paper Benchmark Configuration**: The official benchmark results in the paper were produced using **4 layers (blocks)** and **8 attention heads** with hidden dimension $d_{\text{model}} = 768$ (as specified in `BudgetFormer/benchmarks/budgetformer/*/main.py`).
+- **Exploratory POC Configuration**: The proof-of-concept script (`BudgetFormer/1. POC/budgetformer.py`) contains a scaled configuration with **6 layers and 12 heads** used for larger-scale architecture exploration.
 
-### 2. Entropy Schedule Alignment ($\beta_{\text{schedule}}$)
+### 2. Entropy Schedule Alignment (Beta Schedule)
+
 In the training loss:
-$$\mathcal{L} = \mathcal{L}_{\text{task}} + \mathcal{L}_{\text{budget}} + \beta(t) \mathcal{L}_{\text{entropy}}$$
+
+$$
+\mathcal{L} = \mathcal{L}_{\text{task}} + \mathcal{L}_{\text{budget}} + \beta(t) \mathcal{L}_{\text{entropy}}
+$$
+
 The implemented schedule in `beta_schedule(step, total_steps)` is:
-$$\beta(t) = \beta_{\max} \left(1 - \frac{2t}{T}\right)$$
+
+$$
+\beta(t) = \beta_{\max} \left(1 - \frac{2t}{T}\right)
+$$
+
 This coefficient transitions from $+\beta_{\max}$ down to $-\beta_{\max}$. At the start of training ($t \to 0$), a positive coefficient maximizes head entropy to encourage broad exploration across all attention heads. As training progresses ($t \to T$), the coefficient becomes negative, penalizing dispersion and encouraging sparse head specialization. *(Note: This aligns the practical implementation with the exploration-to-exploitation mechanism).*
 
 ### 3. Theoretical FLOPs vs. Wall-Clock Latency
@@ -181,7 +190,7 @@ Sample-level visualization of attention scores and gating weights demonstrates l
 ## Interactive Notebook
 
 An end-to-end interactive demo containing model definition, training loops, profiling (FLOPs, memory, carbon), and attention head visualization heatmaps is available at:
-- `AdaTransformer/AdaTransformer.ipynb`
+- `BudgetFormer/BudgetFormer.ipynb`
 
 ## Default Training Configuration
 

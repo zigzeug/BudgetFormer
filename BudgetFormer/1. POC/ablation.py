@@ -499,7 +499,7 @@ test_loader, vocab_size, num_classes = load_data("yelp_review_full", BATCH_SIZE,
 S_OVERRIDE=0.1976 # à revoir
 
 model = AdaptiveClassifier(vocab_size, num_classes).to(DEVICE)
-model.load_state_dict(torch.load("../../adaT/yelp_review_full/final_adaptive_model.pt", map_location=DEVICE))
+model.load_state_dict(torch.load("../benchmarks/budgetformer/yelp_review_full/final_adaptive_model.pt", map_location=DEVICE))
 model.eval()  # important si tu es en phase d'inférence
 
 
