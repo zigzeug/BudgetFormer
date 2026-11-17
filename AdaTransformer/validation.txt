@@ -7,13 +7,12 @@
 - AdaTransformer / BudgetFormer (Dynamic Adaptive Budget)
 
 ### Ablations
-- Fixed Budget Allocation ($s \in \{0.2, 0.4, 0.6, 0.8\}$)
-- Random Top-k Head Selection (Unlearned Routing)
-- Uniform Attention Softmax Weighting
+- Fixed Budget Allocation ($s \in \{0.1, 0.25, 0.5, 0.75, 1.0\}$)
+- Random Head Selection (Unlearned Routing)
 
 ### Behavioral Analysis
-- Active head distribution $k(x)$: Mean number of selected heads and variance across inputs
-- Input complexity vs. Budget correlation (Simple inputs vs. Complex inputs)
+- Active head distribution $k(x)$: Mean predicted budget $s_{\text{mean}}$ and variability across inputs
+- Input complexity vs. Budget correlation (Simple inputs vs. Complex inputs, e.g., Entailment vs. Neutral in SNLI)
 
 ### Attention Head Visualizations
 - Heatmaps of head utilization across layers
@@ -26,28 +25,40 @@
 
 ---
 
-## 2. Benchmark Evaluation Results
+## 2. Benchmark Evaluation Results (Official Paper Results)
 
-| Dataset | Metric | Dense Baseline (s=1.0) | BudgetFormer (Dynamic s) | Fixed Budget (s=0.2) |
-| :--- | :--- | :--- | :--- | :--- |
-| **AG News** | Accuracy | 0.9161 | 0.9214 | 0.9158 |
-| **IMDb** | Accuracy | 0.7435 | 0.7498 | 0.7464 |
-| **SNLI** | Accuracy | 0.8038 | 0.8126 | 0.8130 |
-| **DBpedia-14** | Accuracy | 0.9849 | 0.9856 | - |
-| **Yelp Review Full** | Accuracy | 0.5496 | 0.5576 | - |
+### Main Results
+
+| Dataset | Standard Transformer Acc | BudgetFormer Acc | Transformer FLOPs ($10^{12}$) | BudgetFormer FLOPs ($10^{12}$) | Transformer CO2 (g) | BudgetFormer CO2 (g) | Mean Budget ($s_{\text{mean}}$) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **DBpedia** | 0.9830 | **0.9859** | 44.0 | **42.6** | 0.1468 | **0.1420** | 0.085 |
+| **AG News** | **0.9099** | 0.9022 | 4.78 | **4.65** | 0.0159 | **0.0155** | 0.212 |
+| **IMDB** | 0.8354 | **0.8356** | 161 | **145** | 0.5376 | **0.4840** | 0.601 |
+| **SNLI** | 0.7835 | **0.8106** | 6.18 | **6.05** | 0.0206 | **0.0202** | 0.364 |
+| **Yelp** | 0.5810 | **0.6190** | 323 | **258** | 1.0751 | **0.8591** | 0.198 |
+
+### Ablation Study
+
+| Dataset | $s=0.1$ | $s=0.25$ | $s=0.5$ | $s=0.75$ | $s=1.0$ | Random Selection | Full BudgetFormer |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **DBpedia** | 0.9846 | 0.9478 | 0.6202 | 0.3245 | 0.1670 | 0.7511 | **0.9859** |
+| **AG News** | 0.8905 | 0.8974 | 0.8675 | 0.8139 | 0.7554 | 0.8180 | **0.9022** |
+| **IMDB** | 0.7296 | 0.8036 | 0.8246 | 0.8289 | 0.8162 | 0.7493 | **0.8356** |
+| **SNLI** | 0.6704 | 0.7598 | 0.5838 | 0.3541 | 0.3190 | 0.3370 | **0.8106** |
+| **Yelp** | 0.5818 | 0.5813 | 0.2737 | 0.1013 | 0.0743 | 0.3244 | **0.6190** |
 
 ---
 
 ## 3. Core Scientific Insights
 
 1. **Over-parameterization of Standard Multi-Head Attention**:
-   Empirical evaluation reveals that increasing the number of attention heads (from 1 to 8 or 12) yields marginal accuracy improvements across multiple text classification and NLI benchmarks. Standard architectures frequently over-allocate attention heads without proportional capacity gains.
+   Empirical evaluation reveals that increasing the number of attention heads yields marginal accuracy improvements across multiple text classification and NLI benchmarks. Standard architectures frequently over-allocate attention heads without proportional capacity gains.
 
 2. **Dynamic vs. Fixed Allocation**:
    BudgetFormer automatically converges to task-dependent computational budgets ($s_{\text{mean}} < 1.0$), matching or outperforming fixed sparsity baselines and dense oracles without requiring manual grid search.
 
 3. **Computational Efficiency**:
-   Reducing active heads directly reduces quadratic projection and self-attention operations, lowering theoretical FLOPs, peak activation memory, and overall energy consumption during inference.
+   Reducing active heads directly reduces quadratic projection and self-attention operations, lowering inference FLOPs, peak activation memory, and overall energy consumption.
 
 ---
 
@@ -55,7 +66,7 @@
 
 Transformers have become the dominant architecture for natural language processing tasks, largely due to the effectiveness of multi-head attention. In standard designs, multiple attention heads are used in parallel under the assumption that each head captures complementary information. However, the actual contribution of multiple heads to model performance remains insufficiently understood.
 
-In this work, we conduct an empirical study across several NLP benchmarks, including AG News, IMDB, SNLI, Yelp Review Full, and DBpedia. We observe that increasing the number of attention heads from 1 to 8 yields negligible improvements in accuracy, and in some cases, a single head performs comparably or even slightly better. These findings suggest that multi-head attention may be significantly over-parameterized for a wide range of tasks.
+In this work, we conduct an empirical study across several NLP benchmarks, including AG News, IMDB, SNLI, Yelp Review Full, and DBpedia. We observe that increasing the number of attention heads yields negligible improvements in accuracy, and in some cases, a single head performs comparably or even slightly better. These findings suggest that multi-head attention may be significantly over-parameterized for a wide range of tasks.
 
 Motivated by this observation, we propose an adaptive attention mechanism that dynamically adjusts the number of active heads based on the input. Instead of relying on a fixed and manually tuned number of heads, our approach learns to allocate computational resources where needed. The method introduces a lightweight gating mechanism that controls both the importance and the number of active heads during inference.
 
