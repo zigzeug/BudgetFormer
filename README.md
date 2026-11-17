@@ -127,6 +127,38 @@ Ablation evaluation comparing fixed budgets ($s \in \{0.1, 0.25, 0.5, 0.75, 1.0\
 | **SNLI** | 0.6704 | 0.7598 | 0.5838 | 0.3541 | 0.3190 | 0.3370 | **0.8106** |
 | **Yelp** | 0.5818 | 0.5813 | 0.2737 | 0.1013 | 0.0743 | 0.3244 | **0.6190** |
 
+## Empirical Visualizations & Analysis
+
+### 1. Predicted Budget Distributions Across Benchmarks
+The distribution of predicted budgets reflects individual task complexity. Coarser-grained tasks (such as DBpedia-14) converge to small head budgets ($s_{\text{mean}} = 0.085$), whereas richer semantics (IMDb, SNLI) adaptively allocate larger budgets.
+
+<p align="center">
+  <img src="assets/images/all_boxplots.png" alt="Budget Distributions Across Tasks" width="80%">
+</p>
+
+### 2. Multi-Head Sparsity and Performance Curves
+Evaluating accuracy across head budgets demonstrates that standard full-head allocation is largely over-parameterized. Peak performance is achieved with a fraction of active heads:
+
+<p align="center">
+  <img src="assets/images/all_lines.png" alt="Accuracy across head budgets" width="90%">
+</p>
+
+### 3. Task Complexity & Semantic Ambiguity (SNLI Analysis)
+On SNLI, neutral pairs (semantically ambiguous) exhibit higher mean budgets ($s_{\text{mean}}$) and greater entropy than straightforward entailment pairs, showing that BudgetFormer dynamically expands its attention capacity when facing harder inputs:
+
+<p align="center">
+  <img src="assets/images/snli_smean.png" alt="SNLI Mean Budget" width="31%">
+  <img src="assets/images/snli_std.png" alt="SNLI Budget Variance" width="31%">
+  <img src="assets/images/snli_entropy.png" alt="SNLI Head Selection Entropy" width="31%">
+</p>
+
+### 4. Attention Allocation & Head Specialization Heatmaps
+Sample-level visualization of attention scores and gating weights demonstrates layer-wise sparsity and head specialization:
+
+<p align="center">
+  <img src="assets/images/attention_dbpedia_example.png" alt="Attention Allocation Heatmap" width="65%">
+</p>
+
 ## Interactive Notebook
 
 An end-to-end interactive demo containing model definition, training loops, profiling (FLOPs, memory, carbon), and attention head visualization heatmaps is available at:
