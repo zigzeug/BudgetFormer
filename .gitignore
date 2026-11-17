@@ -1,0 +1,19 @@
+# Checkpoints and models (>100MB exceeds GitHub push limits)
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Zip archives
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/

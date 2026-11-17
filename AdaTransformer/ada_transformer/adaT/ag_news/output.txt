@@ -1,0 +1,4476 @@
+GPU alloué par Slurm : 0
+Chargement du dataset ag_news...
+Chargement du tokenizer bert-base-uncased...
+Tokenisation en cours...
+Model weight memory: 206.70 MB
+
+Step 300
+Loss 0.6311 | L_task 1.0377 | L_budget 0.0001 | L_entropy -0.4067
+TRAIN → Acc 0.366 | F1 0.366 | Prec 0.369 | Recall 0.366 | AUC 0.628 | s_mean 0.553
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1028.67
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.6790 | Acc 0.524 | F1 0.502 | Prec 0.645 | Recall 0.524 | AUC 0.850 | s_mean 0.898
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 887.44
+NEW BEST MODEL SAVED
+
+Step 600
+Loss 0.2650 | L_task 0.6661 | L_budget 0.0010 | L_entropy -0.4020
+TRAIN → Acc 0.658 | F1 0.658 | Prec 0.659 | Recall 0.659 | AUC 0.873 | s_mean 0.944
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.31
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2651 | Acc 0.746 | F1 0.742 | Prec 0.761 | Recall 0.746 | AUC 0.929 | s_mean 0.968
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 900
+Loss 0.3946 | L_task 0.7914 | L_budget 0.0010 | L_entropy -0.3977
+TRAIN → Acc 0.779 | F1 0.778 | Prec 0.777 | Recall 0.778 | AUC 0.935 | s_mean 0.973
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1513 | Acc 0.796 | F1 0.798 | Prec 0.808 | Recall 0.796 | AUC 0.951 | s_mean 0.967
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 1200
+Loss 0.0771 | L_task 0.4711 | L_budget 0.0007 | L_entropy -0.3946
+TRAIN → Acc 0.803 | F1 0.802 | Prec 0.802 | Recall 0.802 | AUC 0.944 | s_mean 0.940
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0911 | Acc 0.824 | F1 0.823 | Prec 0.832 | Recall 0.824 | AUC 0.958 | s_mean 0.946
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 1500
+Loss -0.0420 | L_task 0.3492 | L_budget 0.0003 | L_entropy -0.3915
+TRAIN → Acc 0.837 | F1 0.837 | Prec 0.837 | Recall 0.838 | AUC 0.959 | s_mean 0.932
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0403 | Acc 0.847 | F1 0.847 | Prec 0.849 | Recall 0.847 | AUC 0.964 | s_mean 0.911
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 1800
+Loss -0.2474 | L_task 0.1400 | L_budget 0.0004 | L_entropy -0.3878
+TRAIN → Acc 0.837 | F1 0.837 | Prec 0.837 | Recall 0.837 | AUC 0.961 | s_mean 0.920
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0364 | Acc 0.848 | F1 0.847 | Prec 0.856 | Recall 0.848 | AUC 0.967 | s_mean 0.922
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 2100
+Loss 0.1422 | L_task 0.5259 | L_budget 0.0002 | L_entropy -0.3839
+TRAIN → Acc 0.833 | F1 0.833 | Prec 0.833 | Recall 0.833 | AUC 0.961 | s_mean 0.913
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0289 | Acc 0.850 | F1 0.849 | Prec 0.858 | Recall 0.850 | AUC 0.970 | s_mean 0.900
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 2400
+Loss 0.2165 | L_task 0.5987 | L_budget 0.0002 | L_entropy -0.3825
+TRAIN → Acc 0.842 | F1 0.840 | Prec 0.840 | Recall 0.840 | AUC 0.964 | s_mean 0.885
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0161 | Acc 0.861 | F1 0.861 | Prec 0.871 | Recall 0.861 | AUC 0.971 | s_mean 0.864
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 2700
+Loss -0.2489 | L_task 0.1279 | L_budget 0.0004 | L_entropy -0.3773
+TRAIN → Acc 0.868 | F1 0.868 | Prec 0.868 | Recall 0.869 | AUC 0.972 | s_mean 0.895
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0702 | Acc 0.826 | F1 0.828 | Prec 0.854 | Recall 0.826 | AUC 0.971 | s_mean 0.883
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 3000
+Loss -0.0032 | L_task 0.3715 | L_budget 0.0001 | L_entropy -0.3749
+TRAIN → Acc 0.870 | F1 0.870 | Prec 0.869 | Recall 0.870 | AUC 0.971 | s_mean 0.882
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0158 | Acc 0.877 | F1 0.877 | Prec 0.879 | Recall 0.877 | AUC 0.975 | s_mean 0.882
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 3300
+Loss 0.4007 | L_task 0.7726 | L_budget 0.0004 | L_entropy -0.3723
+TRAIN → Acc 0.863 | F1 0.863 | Prec 0.863 | Recall 0.863 | AUC 0.971 | s_mean 0.881
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0214 | Acc 0.876 | F1 0.877 | Prec 0.878 | Recall 0.876 | AUC 0.975 | s_mean 0.890
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 3600
+Loss -0.2059 | L_task 0.1625 | L_budget 0.0003 | L_entropy -0.3688
+TRAIN → Acc 0.865 | F1 0.864 | Prec 0.865 | Recall 0.865 | AUC 0.972 | s_mean 0.886
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0332 | Acc 0.883 | F1 0.882 | Prec 0.883 | Recall 0.883 | AUC 0.976 | s_mean 0.890
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 3900
+Loss -0.1763 | L_task 0.1879 | L_budget 0.0002 | L_entropy -0.3644
+TRAIN → Acc 0.870 | F1 0.869 | Prec 0.869 | Recall 0.869 | AUC 0.971 | s_mean 0.869
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0306 | Acc 0.881 | F1 0.881 | Prec 0.882 | Recall 0.881 | AUC 0.977 | s_mean 0.861
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 4200
+Loss 0.2812 | L_task 0.6414 | L_budget 0.0003 | L_entropy -0.3605
+TRAIN → Acc 0.877 | F1 0.876 | Prec 0.877 | Recall 0.877 | AUC 0.973 | s_mean 0.889
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0006 | Acc 0.874 | F1 0.872 | Prec 0.875 | Recall 0.874 | AUC 0.976 | s_mean 0.910
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 4500
+Loss -0.0252 | L_task 0.3323 | L_budget 0.0003 | L_entropy -0.3578
+TRAIN → Acc 0.872 | F1 0.872 | Prec 0.872 | Recall 0.872 | AUC 0.972 | s_mean 0.872
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0295 | Acc 0.883 | F1 0.883 | Prec 0.886 | Recall 0.883 | AUC 0.978 | s_mean 0.875
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 4800
+Loss 0.0321 | L_task 0.3852 | L_budget 0.0002 | L_entropy -0.3533
+TRAIN → Acc 0.881 | F1 0.880 | Prec 0.880 | Recall 0.880 | AUC 0.975 | s_mean 0.879
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0439 | Acc 0.889 | F1 0.888 | Prec 0.888 | Recall 0.889 | AUC 0.979 | s_mean 0.882
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 5100
+Loss -0.2030 | L_task 0.1469 | L_budget 0.0002 | L_entropy -0.3502
+TRAIN → Acc 0.877 | F1 0.877 | Prec 0.877 | Recall 0.877 | AUC 0.977 | s_mean 0.867
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0010 | Acc 0.872 | F1 0.870 | Prec 0.877 | Recall 0.872 | AUC 0.978 | s_mean 0.872
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 5400
+Loss -0.0859 | L_task 0.2615 | L_budget 0.0001 | L_entropy -0.3474
+TRAIN → Acc 0.887 | F1 0.888 | Prec 0.888 | Recall 0.888 | AUC 0.979 | s_mean 0.867
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0430 | Acc 0.896 | F1 0.895 | Prec 0.895 | Recall 0.896 | AUC 0.980 | s_mean 0.834
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 5700
+Loss -0.0969 | L_task 0.2448 | L_budget 0.0001 | L_entropy -0.3417
+TRAIN → Acc 0.882 | F1 0.882 | Prec 0.882 | Recall 0.882 | AUC 0.978 | s_mean 0.857
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0334 | Acc 0.893 | F1 0.893 | Prec 0.894 | Recall 0.893 | AUC 0.980 | s_mean 0.834
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 6000
+Loss -0.1482 | L_task 0.1910 | L_budget 0.0004 | L_entropy -0.3395
+TRAIN → Acc 0.896 | F1 0.896 | Prec 0.895 | Recall 0.896 | AUC 0.982 | s_mean 0.851
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0323 | Acc 0.892 | F1 0.892 | Prec 0.894 | Recall 0.892 | AUC 0.981 | s_mean 0.834
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 6300
+Loss 0.2340 | L_task 0.5702 | L_budget 0.0000 | L_entropy -0.3362
+TRAIN → Acc 0.891 | F1 0.890 | Prec 0.890 | Recall 0.890 | AUC 0.979 | s_mean 0.835
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0309 | Acc 0.894 | F1 0.894 | Prec 0.897 | Recall 0.894 | AUC 0.981 | s_mean 0.772
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 6600
+Loss -0.0747 | L_task 0.2579 | L_budget 0.0001 | L_entropy -0.3327
+TRAIN → Acc 0.890 | F1 0.890 | Prec 0.890 | Recall 0.890 | AUC 0.978 | s_mean 0.823
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0179 | Acc 0.889 | F1 0.888 | Prec 0.892 | Recall 0.889 | AUC 0.981 | s_mean 0.820
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 6900
+Loss 0.1177 | L_task 0.4457 | L_budget 0.0000 | L_entropy -0.3281
+TRAIN → Acc 0.887 | F1 0.887 | Prec 0.888 | Recall 0.887 | AUC 0.979 | s_mean 0.834
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0114 | Acc 0.890 | F1 0.890 | Prec 0.895 | Recall 0.890 | AUC 0.981 | s_mean 0.816
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 7200
+Loss 0.2383 | L_task 0.5639 | L_budget 0.0000 | L_entropy -0.3256
+TRAIN → Acc 0.886 | F1 0.886 | Prec 0.886 | Recall 0.886 | AUC 0.978 | s_mean 0.821
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0364 | Acc 0.900 | F1 0.900 | Prec 0.901 | Recall 0.900 | AUC 0.982 | s_mean 0.807
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 7500
+Loss -0.0839 | L_task 0.2386 | L_budget 0.0002 | L_entropy -0.3226
+TRAIN → Acc 0.895 | F1 0.894 | Prec 0.894 | Recall 0.894 | AUC 0.981 | s_mean 0.838
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0216 | Acc 0.895 | F1 0.895 | Prec 0.898 | Recall 0.895 | AUC 0.981 | s_mean 0.853
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 7800
+Loss -0.1710 | L_task 0.1468 | L_budget 0.0002 | L_entropy -0.3180
+TRAIN → Acc 0.910 | F1 0.910 | Prec 0.910 | Recall 0.910 | AUC 0.984 | s_mean 0.852
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0327 | Acc 0.898 | F1 0.898 | Prec 0.899 | Recall 0.898 | AUC 0.981 | s_mean 0.850
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 8100
+Loss -0.2394 | L_task 0.0764 | L_budget 0.0002 | L_entropy -0.3160
+TRAIN → Acc 0.905 | F1 0.904 | Prec 0.904 | Recall 0.904 | AUC 0.985 | s_mean 0.847
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0333 | Acc 0.901 | F1 0.901 | Prec 0.901 | Recall 0.901 | AUC 0.982 | s_mean 0.837
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 8400
+Loss 0.0046 | L_task 0.3159 | L_budget 0.0001 | L_entropy -0.3113
+TRAIN → Acc 0.901 | F1 0.902 | Prec 0.902 | Recall 0.902 | AUC 0.983 | s_mean 0.827
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0080 | Acc 0.892 | F1 0.892 | Prec 0.895 | Recall 0.892 | AUC 0.982 | s_mean 0.822
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 8700
+Loss -0.1536 | L_task 0.1543 | L_budget 0.0002 | L_entropy -0.3081
+TRAIN → Acc 0.911 | F1 0.910 | Prec 0.910 | Recall 0.910 | AUC 0.986 | s_mean 0.836
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0021 | Acc 0.896 | F1 0.895 | Prec 0.896 | Recall 0.896 | AUC 0.981 | s_mean 0.854
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 9000
+Loss -0.2036 | L_task 0.1007 | L_budget 0.0002 | L_entropy -0.3045
+TRAIN → Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.984 | s_mean 0.818
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0032 | Acc 0.897 | F1 0.896 | Prec 0.897 | Recall 0.897 | AUC 0.982 | s_mean 0.860
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 9300
+Loss -0.0876 | L_task 0.2126 | L_budget 0.0002 | L_entropy -0.3004
+TRAIN → Acc 0.906 | F1 0.906 | Prec 0.906 | Recall 0.906 | AUC 0.984 | s_mean 0.831
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0109 | Acc 0.897 | F1 0.897 | Prec 0.900 | Recall 0.897 | AUC 0.983 | s_mean 0.822
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 9600
+Loss -0.1064 | L_task 0.1905 | L_budget 0.0001 | L_entropy -0.2970
+TRAIN → Acc 0.906 | F1 0.906 | Prec 0.907 | Recall 0.906 | AUC 0.985 | s_mean 0.825
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0048 | Acc 0.890 | F1 0.889 | Prec 0.892 | Recall 0.890 | AUC 0.982 | s_mean 0.821
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 9900
+Loss -0.2046 | L_task 0.0895 | L_budget 0.0001 | L_entropy -0.2942
+TRAIN → Acc 0.909 | F1 0.909 | Prec 0.909 | Recall 0.910 | AUC 0.985 | s_mean 0.822
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0082 | Acc 0.900 | F1 0.899 | Prec 0.899 | Recall 0.900 | AUC 0.982 | s_mean 0.798
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 10200
+Loss -0.0180 | L_task 0.2734 | L_budget 0.0000 | L_entropy -0.2915
+TRAIN → Acc 0.904 | F1 0.905 | Prec 0.905 | Recall 0.905 | AUC 0.984 | s_mean 0.796
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0163 | Acc 0.903 | F1 0.903 | Prec 0.905 | Recall 0.903 | AUC 0.983 | s_mean 0.822
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 10500
+Loss 0.0984 | L_task 0.3866 | L_budget 0.0002 | L_entropy -0.2883
+TRAIN → Acc 0.915 | F1 0.916 | Prec 0.916 | Recall 0.916 | AUC 0.988 | s_mean 0.829
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0029 | Acc 0.897 | F1 0.897 | Prec 0.898 | Recall 0.897 | AUC 0.983 | s_mean 0.808
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 10800
+Loss -0.1675 | L_task 0.1158 | L_budget 0.0001 | L_entropy -0.2834
+TRAIN → Acc 0.903 | F1 0.904 | Prec 0.904 | Recall 0.904 | AUC 0.984 | s_mean 0.791
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0074 | Acc 0.902 | F1 0.902 | Prec 0.903 | Recall 0.902 | AUC 0.983 | s_mean 0.773
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 11100
+Loss -0.1288 | L_task 0.1519 | L_budget 0.0001 | L_entropy -0.2808
+TRAIN → Acc 0.911 | F1 0.911 | Prec 0.910 | Recall 0.911 | AUC 0.986 | s_mean 0.791
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0089 | Acc 0.905 | F1 0.906 | Prec 0.907 | Recall 0.905 | AUC 0.983 | s_mean 0.806
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 11400
+Loss 0.0480 | L_task 0.3226 | L_budget 0.0002 | L_entropy -0.2747
+TRAIN → Acc 0.913 | F1 0.912 | Prec 0.913 | Recall 0.912 | AUC 0.986 | s_mean 0.808
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0134 | Acc 0.904 | F1 0.905 | Prec 0.906 | Recall 0.904 | AUC 0.984 | s_mean 0.792
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 11700
+Loss 0.3415 | L_task 0.6141 | L_budget 0.0001 | L_entropy -0.2726
+TRAIN → Acc 0.909 | F1 0.909 | Prec 0.909 | Recall 0.909 | AUC 0.985 | s_mean 0.787
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0050 | Acc 0.906 | F1 0.906 | Prec 0.908 | Recall 0.906 | AUC 0.984 | s_mean 0.754
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 12000
+Loss -0.1182 | L_task 0.1511 | L_budget 0.0001 | L_entropy -0.2694
+TRAIN → Acc 0.902 | F1 0.902 | Prec 0.903 | Recall 0.902 | AUC 0.984 | s_mean 0.761
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0142 | Acc 0.910 | F1 0.910 | Prec 0.910 | Recall 0.910 | AUC 0.984 | s_mean 0.759
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 12300
+Loss -0.0293 | L_task 0.2371 | L_budget 0.0000 | L_entropy -0.2665
+TRAIN → Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.770
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0042 | Acc 0.907 | F1 0.906 | Prec 0.907 | Recall 0.907 | AUC 0.984 | s_mean 0.758
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 12600
+Loss 0.2181 | L_task 0.4817 | L_budget 0.0000 | L_entropy -0.2636
+TRAIN → Acc 0.908 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.985 | s_mean 0.763
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0010 | Acc 0.908 | F1 0.908 | Prec 0.910 | Recall 0.908 | AUC 0.985 | s_mean 0.752
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 12900
+Loss 0.0536 | L_task 0.3132 | L_budget 0.0000 | L_entropy -0.2596
+TRAIN → Acc 0.906 | F1 0.905 | Prec 0.905 | Recall 0.905 | AUC 0.984 | s_mean 0.755
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0001 | Acc 0.908 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.984 | s_mean 0.769
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 13200
+Loss -0.1212 | L_task 0.1339 | L_budget 0.0000 | L_entropy -0.2551
+TRAIN → Acc 0.909 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.984 | s_mean 0.744
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss -0.0021 | Acc 0.907 | F1 0.907 | Prec 0.907 | Recall 0.907 | AUC 0.985 | s_mean 0.748
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 13500
+Loss -0.1678 | L_task 0.0834 | L_budget 0.0000 | L_entropy -0.2512
+TRAIN → Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.985 | s_mean 0.758
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0218 | Acc 0.904 | F1 0.904 | Prec 0.905 | Recall 0.904 | AUC 0.984 | s_mean 0.758
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 13800
+Loss -0.0236 | L_task 0.2238 | L_budget 0.0000 | L_entropy -0.2474
+TRAIN → Acc 0.910 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.755
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0133 | Acc 0.909 | F1 0.909 | Prec 0.910 | Recall 0.909 | AUC 0.984 | s_mean 0.738
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 14100
+Loss -0.1335 | L_task 0.1128 | L_budget 0.0000 | L_entropy -0.2463
+TRAIN → Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.913 | AUC 0.985 | s_mean 0.747
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0016 | Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.985 | s_mean 0.709
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 14400
+Loss -0.0914 | L_task 0.1514 | L_budget 0.0000 | L_entropy -0.2428
+TRAIN → Acc 0.914 | F1 0.914 | Prec 0.915 | Recall 0.914 | AUC 0.986 | s_mean 0.739
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0135 | Acc 0.912 | F1 0.912 | Prec 0.913 | Recall 0.912 | AUC 0.985 | s_mean 0.787
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 14700
+Loss 0.0362 | L_task 0.2720 | L_budget 0.0000 | L_entropy -0.2358
+TRAIN → Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.746
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0125 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.985 | s_mean 0.712
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 15000
+Loss 0.2942 | L_task 0.5309 | L_budget 0.0000 | L_entropy -0.2367
+TRAIN → Acc 0.909 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.985 | s_mean 0.732
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0220 | Acc 0.908 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.985 | s_mean 0.694
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 15300
+Loss -0.1355 | L_task 0.0939 | L_budget 0.0002 | L_entropy -0.2295
+TRAIN → Acc 0.926 | F1 0.926 | Prec 0.926 | Recall 0.926 | AUC 0.991 | s_mean 0.757
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0178 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.784
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 15600
+Loss -0.0623 | L_task 0.1667 | L_budget 0.0001 | L_entropy -0.2292
+TRAIN → Acc 0.934 | F1 0.934 | Prec 0.934 | Recall 0.934 | AUC 0.991 | s_mean 0.782
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0220 | Acc 0.913 | F1 0.913 | Prec 0.914 | Recall 0.913 | AUC 0.985 | s_mean 0.796
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 15900
+Loss 0.3813 | L_task 0.6051 | L_budget 0.0000 | L_entropy -0.2239
+TRAIN → Acc 0.922 | F1 0.922 | Prec 0.922 | Recall 0.922 | AUC 0.989 | s_mean 0.776
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0483 | Acc 0.907 | F1 0.906 | Prec 0.908 | Recall 0.907 | AUC 0.984 | s_mean 0.770
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 16200
+Loss -0.1811 | L_task 0.0379 | L_budget 0.0000 | L_entropy -0.2190
+TRAIN → Acc 0.921 | F1 0.921 | Prec 0.921 | Recall 0.921 | AUC 0.989 | s_mean 0.752
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0313 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.985 | s_mean 0.729
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 16500
+Loss -0.0859 | L_task 0.1295 | L_budget 0.0001 | L_entropy -0.2155
+TRAIN → Acc 0.922 | F1 0.921 | Prec 0.921 | Recall 0.921 | AUC 0.990 | s_mean 0.749
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0486 | Acc 0.911 | F1 0.910 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.765
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 16800
+Loss -0.1779 | L_task 0.0368 | L_budget 0.0001 | L_entropy -0.2148
+TRAIN → Acc 0.931 | F1 0.931 | Prec 0.931 | Recall 0.931 | AUC 0.991 | s_mean 0.763
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0416 | Acc 0.911 | F1 0.911 | Prec 0.912 | Recall 0.911 | AUC 0.986 | s_mean 0.761
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 17100
+Loss 0.0788 | L_task 0.2866 | L_budget 0.0000 | L_entropy -0.2079
+TRAIN → Acc 0.927 | F1 0.927 | Prec 0.928 | Recall 0.927 | AUC 0.989 | s_mean 0.755
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0386 | Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.985 | s_mean 0.754
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 17400
+Loss -0.0308 | L_task 0.1732 | L_budget 0.0001 | L_entropy -0.2040
+TRAIN → Acc 0.920 | F1 0.920 | Prec 0.921 | Recall 0.920 | AUC 0.989 | s_mean 0.760
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0478 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.985 | s_mean 0.758
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 17700
+Loss -0.1744 | L_task 0.0270 | L_budget 0.0001 | L_entropy -0.2016
+TRAIN → Acc 0.921 | F1 0.921 | Prec 0.921 | Recall 0.921 | AUC 0.989 | s_mean 0.740
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0571 | Acc 0.909 | F1 0.909 | Prec 0.910 | Recall 0.909 | AUC 0.985 | s_mean 0.723
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 18000
+Loss 0.2232 | L_task 0.4215 | L_budget 0.0001 | L_entropy -0.1984
+TRAIN → Acc 0.919 | F1 0.919 | Prec 0.919 | Recall 0.920 | AUC 0.988 | s_mean 0.724
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0661 | Acc 0.912 | F1 0.912 | Prec 0.913 | Recall 0.912 | AUC 0.985 | s_mean 0.780
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 18300
+Loss 0.0110 | L_task 0.2067 | L_budget 0.0000 | L_entropy -0.1957
+TRAIN → Acc 0.924 | F1 0.924 | Prec 0.925 | Recall 0.925 | AUC 0.989 | s_mean 0.737
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0496 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.986 | s_mean 0.707
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 18600
+Loss -0.0910 | L_task 0.0998 | L_budget 0.0000 | L_entropy -0.1908
+TRAIN → Acc 0.926 | F1 0.925 | Prec 0.925 | Recall 0.925 | AUC 0.989 | s_mean 0.718
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0582 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.985 | s_mean 0.690
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 18900
+Loss 0.2274 | L_task 0.4138 | L_budget 0.0000 | L_entropy -0.1864
+TRAIN → Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.917 | AUC 0.989 | s_mean 0.711
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0626 | Acc 0.914 | F1 0.913 | Prec 0.913 | Recall 0.914 | AUC 0.986 | s_mean 0.702
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 19200
+Loss -0.0859 | L_task 0.1001 | L_budget 0.0000 | L_entropy -0.1859
+TRAIN → Acc 0.927 | F1 0.926 | Prec 0.927 | Recall 0.926 | AUC 0.990 | s_mean 0.691
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0621 | Acc 0.911 | F1 0.911 | Prec 0.912 | Recall 0.911 | AUC 0.986 | s_mean 0.694
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 19500
+Loss 0.1048 | L_task 0.2848 | L_budget 0.0000 | L_entropy -0.1800
+TRAIN → Acc 0.922 | F1 0.922 | Prec 0.923 | Recall 0.922 | AUC 0.991 | s_mean 0.695
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0649 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.986 | s_mean 0.694
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 19800
+Loss -0.1213 | L_task 0.0580 | L_budget 0.0000 | L_entropy -0.1793
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.992 | s_mean 0.699
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0646 | Acc 0.911 | F1 0.912 | Prec 0.913 | Recall 0.911 | AUC 0.986 | s_mean 0.700
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 20100
+Loss 0.0808 | L_task 0.2550 | L_budget 0.0000 | L_entropy -0.1742
+TRAIN → Acc 0.925 | F1 0.925 | Prec 0.925 | Recall 0.925 | AUC 0.989 | s_mean 0.671
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0699 | Acc 0.911 | F1 0.912 | Prec 0.913 | Recall 0.911 | AUC 0.986 | s_mean 0.662
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 20400
+Loss -0.0215 | L_task 0.1483 | L_budget 0.0000 | L_entropy -0.1698
+TRAIN → Acc 0.922 | F1 0.922 | Prec 0.922 | Recall 0.922 | AUC 0.990 | s_mean 0.701
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0647 | Acc 0.917 | F1 0.916 | Prec 0.917 | Recall 0.917 | AUC 0.986 | s_mean 0.703
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 20700
+Loss -0.0631 | L_task 0.1066 | L_budget 0.0000 | L_entropy -0.1697
+TRAIN → Acc 0.925 | F1 0.925 | Prec 0.925 | Recall 0.925 | AUC 0.990 | s_mean 0.685
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0773 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.986 | s_mean 0.692
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 21000
+Loss 0.0884 | L_task 0.2531 | L_budget 0.0000 | L_entropy -0.1647
+TRAIN → Acc 0.918 | F1 0.917 | Prec 0.918 | Recall 0.917 | AUC 0.989 | s_mean 0.670
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0705 | Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.917 | AUC 0.986 | s_mean 0.655
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 21300
+Loss -0.0355 | L_task 0.1262 | L_budget 0.0000 | L_entropy -0.1617
+TRAIN → Acc 0.922 | F1 0.922 | Prec 0.922 | Recall 0.922 | AUC 0.989 | s_mean 0.653
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0866 | Acc 0.915 | F1 0.914 | Prec 0.915 | Recall 0.915 | AUC 0.986 | s_mean 0.655
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 21600
+Loss 0.5266 | L_task 0.6863 | L_budget 0.0000 | L_entropy -0.1597
+TRAIN → Acc 0.921 | F1 0.922 | Prec 0.922 | Recall 0.922 | AUC 0.989 | s_mean 0.640
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1062 | Acc 0.906 | F1 0.907 | Prec 0.908 | Recall 0.906 | AUC 0.985 | s_mean 0.640
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 21900
+Loss -0.0477 | L_task 0.1079 | L_budget 0.0000 | L_entropy -0.1556
+TRAIN → Acc 0.922 | F1 0.922 | Prec 0.922 | Recall 0.922 | AUC 0.989 | s_mean 0.635
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0880 | Acc 0.916 | F1 0.915 | Prec 0.916 | Recall 0.916 | AUC 0.986 | s_mean 0.662
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 22200
+Loss -0.0432 | L_task 0.1092 | L_budget 0.0000 | L_entropy -0.1524
+TRAIN → Acc 0.923 | F1 0.923 | Prec 0.923 | Recall 0.923 | AUC 0.988 | s_mean 0.643
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0859 | Acc 0.917 | F1 0.916 | Prec 0.916 | Recall 0.917 | AUC 0.987 | s_mean 0.588
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 22500
+Loss 0.0141 | L_task 0.1642 | L_budget 0.0000 | L_entropy -0.1501
+TRAIN → Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.918 | AUC 0.987 | s_mean 0.617
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.0864 | Acc 0.918 | F1 0.918 | Prec 0.919 | Recall 0.918 | AUC 0.987 | s_mean 0.632
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 22800
+Loss 0.0978 | L_task 0.2409 | L_budget 0.0000 | L_entropy -0.1431
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.938 | Recall 0.938 | AUC 0.992 | s_mean 0.660
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1052 | Acc 0.916 | F1 0.915 | Prec 0.917 | Recall 0.916 | AUC 0.987 | s_mean 0.675
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 23100
+Loss 0.0456 | L_task 0.1850 | L_budget 0.0000 | L_entropy -0.1395
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.939 | Recall 0.939 | AUC 0.993 | s_mean 0.677
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1157 | Acc 0.914 | F1 0.913 | Prec 0.915 | Recall 0.914 | AUC 0.986 | s_mean 0.669
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 23400
+Loss -0.0967 | L_task 0.0431 | L_budget 0.0000 | L_entropy -0.1398
+TRAIN → Acc 0.932 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.993 | s_mean 0.670
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1109 | Acc 0.913 | F1 0.913 | Prec 0.914 | Recall 0.913 | AUC 0.986 | s_mean 0.680
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 23700
+Loss 0.0589 | L_task 0.1922 | L_budget 0.0000 | L_entropy -0.1333
+TRAIN → Acc 0.936 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.992 | s_mean 0.677
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1173 | Acc 0.916 | F1 0.915 | Prec 0.915 | Recall 0.916 | AUC 0.986 | s_mean 0.674
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 24000
+Loss 0.2907 | L_task 0.4214 | L_budget 0.0000 | L_entropy -0.1306
+TRAIN → Acc 0.934 | F1 0.934 | Prec 0.934 | Recall 0.934 | AUC 0.991 | s_mean 0.655
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1125 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.986 | s_mean 0.654
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 24300
+Loss 0.1698 | L_task 0.3000 | L_budget 0.0000 | L_entropy -0.1302
+TRAIN → Acc 0.938 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.992 | s_mean 0.641
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1234 | Acc 0.914 | F1 0.914 | Prec 0.916 | Recall 0.914 | AUC 0.987 | s_mean 0.641
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 24600
+Loss 0.0353 | L_task 0.1590 | L_budget 0.0000 | L_entropy -0.1236
+TRAIN → Acc 0.936 | F1 0.936 | Prec 0.936 | Recall 0.936 | AUC 0.993 | s_mean 0.626
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1207 | Acc 0.914 | F1 0.914 | Prec 0.916 | Recall 0.914 | AUC 0.986 | s_mean 0.612
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 24900
+Loss -0.0747 | L_task 0.0484 | L_budget 0.0000 | L_entropy -0.1231
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.939 | Recall 0.939 | AUC 0.993 | s_mean 0.628
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1344 | Acc 0.916 | F1 0.916 | Prec 0.916 | Recall 0.916 | AUC 0.986 | s_mean 0.637
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 25200
+Loss -0.0778 | L_task 0.0433 | L_budget 0.0000 | L_entropy -0.1211
+TRAIN → Acc 0.936 | F1 0.936 | Prec 0.936 | Recall 0.936 | AUC 0.992 | s_mean 0.623
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1378 | Acc 0.908 | F1 0.908 | Prec 0.910 | Recall 0.908 | AUC 0.986 | s_mean 0.628
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 25500
+Loss 0.0939 | L_task 0.2085 | L_budget 0.0000 | L_entropy -0.1146
+TRAIN → Acc 0.933 | F1 0.933 | Prec 0.933 | Recall 0.933 | AUC 0.992 | s_mean 0.635
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1339 | Acc 0.914 | F1 0.914 | Prec 0.915 | Recall 0.914 | AUC 0.986 | s_mean 0.632
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 25800
+Loss -0.0555 | L_task 0.0563 | L_budget 0.0000 | L_entropy -0.1118
+TRAIN → Acc 0.930 | F1 0.931 | Prec 0.931 | Recall 0.931 | AUC 0.992 | s_mean 0.598
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1334 | Acc 0.916 | F1 0.916 | Prec 0.917 | Recall 0.916 | AUC 0.987 | s_mean 0.606
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 26100
+Loss -0.0595 | L_task 0.0498 | L_budget 0.0000 | L_entropy -0.1093
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.930 | Recall 0.929 | AUC 0.990 | s_mean 0.604
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1271 | Acc 0.919 | F1 0.919 | Prec 0.919 | Recall 0.919 | AUC 0.987 | s_mean 0.578
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 26400
+Loss 0.1042 | L_task 0.2099 | L_budget 0.0000 | L_entropy -0.1057
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.991 | s_mean 0.597
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1302 | Acc 0.920 | F1 0.920 | Prec 0.920 | Recall 0.920 | AUC 0.986 | s_mean 0.585
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 26700
+Loss -0.0403 | L_task 0.0618 | L_budget 0.0000 | L_entropy -0.1021
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.930 | AUC 0.992 | s_mean 0.593
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1430 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.987 | s_mean 0.591
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 27000
+Loss 0.3228 | L_task 0.4210 | L_budget 0.0000 | L_entropy -0.0982
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.991 | s_mean 0.602
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1521 | Acc 0.913 | F1 0.913 | Prec 0.914 | Recall 0.913 | AUC 0.986 | s_mean 0.596
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 27300
+Loss 0.2754 | L_task 0.3706 | L_budget 0.0000 | L_entropy -0.0952
+TRAIN → Acc 0.924 | F1 0.924 | Prec 0.924 | Recall 0.924 | AUC 0.989 | s_mean 0.582
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1439 | Acc 0.914 | F1 0.914 | Prec 0.915 | Recall 0.914 | AUC 0.987 | s_mean 0.578
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 27600
+Loss 0.0076 | L_task 0.1024 | L_budget 0.0000 | L_entropy -0.0948
+TRAIN → Acc 0.936 | F1 0.936 | Prec 0.936 | Recall 0.935 | AUC 0.992 | s_mean 0.592
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1778 | Acc 0.910 | F1 0.909 | Prec 0.911 | Recall 0.910 | AUC 0.986 | s_mean 0.597
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 27900
+Loss -0.0323 | L_task 0.0583 | L_budget 0.0000 | L_entropy -0.0906
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.992 | s_mean 0.568
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1478 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.987 | s_mean 0.563
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 28200
+Loss 0.0895 | L_task 0.1765 | L_budget 0.0000 | L_entropy -0.0870
+TRAIN → Acc 0.932 | F1 0.933 | Prec 0.933 | Recall 0.933 | AUC 0.991 | s_mean 0.561
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1671 | Acc 0.910 | F1 0.910 | Prec 0.910 | Recall 0.910 | AUC 0.986 | s_mean 0.562
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 28500
+Loss 0.2283 | L_task 0.3115 | L_budget 0.0000 | L_entropy -0.0832
+TRAIN → Acc 0.924 | F1 0.924 | Prec 0.924 | Recall 0.924 | AUC 0.991 | s_mean 0.563
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1515 | Acc 0.916 | F1 0.916 | Prec 0.916 | Recall 0.916 | AUC 0.987 | s_mean 0.526
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 28800
+Loss -0.0104 | L_task 0.0712 | L_budget 0.0000 | L_entropy -0.0817
+TRAIN → Acc 0.928 | F1 0.928 | Prec 0.928 | Recall 0.928 | AUC 0.990 | s_mean 0.530
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1675 | Acc 0.913 | F1 0.914 | Prec 0.914 | Recall 0.913 | AUC 0.986 | s_mean 0.548
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 29100
+Loss -0.0104 | L_task 0.0675 | L_budget 0.0000 | L_entropy -0.0779
+TRAIN → Acc 0.926 | F1 0.925 | Prec 0.926 | Recall 0.925 | AUC 0.990 | s_mean 0.543
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1678 | Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.917 | AUC 0.987 | s_mean 0.534
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 29400
+Loss 0.0313 | L_task 0.1038 | L_budget 0.0000 | L_entropy -0.0726
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.990 | s_mean 0.538
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1719 | Acc 0.913 | F1 0.913 | Prec 0.915 | Recall 0.913 | AUC 0.987 | s_mean 0.531
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 29700
+Loss 0.0045 | L_task 0.0748 | L_budget 0.0000 | L_entropy -0.0703
+TRAIN → Acc 0.929 | F1 0.928 | Prec 0.928 | Recall 0.928 | AUC 0.991 | s_mean 0.523
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1827 | Acc 0.912 | F1 0.911 | Prec 0.912 | Recall 0.912 | AUC 0.986 | s_mean 0.520
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 30000
+Loss 0.1282 | L_task 0.1968 | L_budget 0.0000 | L_entropy -0.0686
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.990 | s_mean 0.506
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1707 | Acc 0.914 | F1 0.914 | Prec 0.916 | Recall 0.914 | AUC 0.987 | s_mean 0.501
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 30300
+Loss 0.1013 | L_task 0.1658 | L_budget 0.0000 | L_entropy -0.0645
+TRAIN → Acc 0.936 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.993 | s_mean 0.524
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1711 | Acc 0.918 | F1 0.919 | Prec 0.919 | Recall 0.918 | AUC 0.987 | s_mean 0.532
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 30600
+Loss -0.0248 | L_task 0.0377 | L_budget 0.0000 | L_entropy -0.0625
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.938 | Recall 0.938 | AUC 0.994 | s_mean 0.531
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2010 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.557
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 30900
+Loss 0.1350 | L_task 0.1958 | L_budget 0.0000 | L_entropy -0.0608
+TRAIN → Acc 0.941 | F1 0.941 | Prec 0.941 | Recall 0.941 | AUC 0.994 | s_mean 0.536
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1875 | Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.917 | AUC 0.987 | s_mean 0.547
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 31200
+Loss 0.0323 | L_task 0.0877 | L_budget 0.0000 | L_entropy -0.0554
+TRAIN → Acc 0.944 | F1 0.944 | Prec 0.944 | Recall 0.944 | AUC 0.993 | s_mean 0.534
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1990 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.986 | s_mean 0.535
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 31500
+Loss 0.0433 | L_task 0.0960 | L_budget 0.0000 | L_entropy -0.0527
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.992 | s_mean 0.505
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.1937 | Acc 0.918 | F1 0.918 | Prec 0.918 | Recall 0.918 | AUC 0.987 | s_mean 0.522
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 31800
+Loss 0.0280 | L_task 0.0794 | L_budget 0.0000 | L_entropy -0.0514
+TRAIN → Acc 0.940 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.993 | s_mean 0.523
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2182 | Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.913 | AUC 0.986 | s_mean 0.508
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 32100
+Loss 0.3085 | L_task 0.3566 | L_budget 0.0000 | L_entropy -0.0481
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.936 | AUC 0.992 | s_mean 0.497
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2072 | Acc 0.914 | F1 0.914 | Prec 0.914 | Recall 0.914 | AUC 0.986 | s_mean 0.498
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 32400
+Loss 0.3016 | L_task 0.3467 | L_budget 0.0000 | L_entropy -0.0451
+TRAIN → Acc 0.937 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.993 | s_mean 0.511
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2094 | Acc 0.916 | F1 0.915 | Prec 0.915 | Recall 0.916 | AUC 0.986 | s_mean 0.536
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 32700
+Loss -0.0162 | L_task 0.0271 | L_budget 0.0000 | L_entropy -0.0433
+TRAIN → Acc 0.938 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.993 | s_mean 0.513
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2117 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.986 | s_mean 0.502
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 33000
+Loss 0.0867 | L_task 0.1261 | L_budget 0.0000 | L_entropy -0.0394
+TRAIN → Acc 0.941 | F1 0.941 | Prec 0.942 | Recall 0.941 | AUC 0.993 | s_mean 0.511
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2375 | Acc 0.908 | F1 0.909 | Prec 0.910 | Recall 0.908 | AUC 0.985 | s_mean 0.486
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 33300
+Loss -0.0139 | L_task 0.0230 | L_budget 0.0000 | L_entropy -0.0369
+TRAIN → Acc 0.933 | F1 0.933 | Prec 0.933 | Recall 0.933 | AUC 0.992 | s_mean 0.483
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2305 | Acc 0.913 | F1 0.913 | Prec 0.916 | Recall 0.913 | AUC 0.986 | s_mean 0.489
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 33600
+Loss 0.0875 | L_task 0.1216 | L_budget 0.0000 | L_entropy -0.0342
+TRAIN → Acc 0.931 | F1 0.931 | Prec 0.932 | Recall 0.931 | AUC 0.992 | s_mean 0.463
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2081 | Acc 0.917 | F1 0.917 | Prec 0.918 | Recall 0.917 | AUC 0.987 | s_mean 0.447
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 33900
+Loss 0.2113 | L_task 0.2434 | L_budget 0.0000 | L_entropy -0.0320
+TRAIN → Acc 0.938 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.993 | s_mean 0.470
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2189 | Acc 0.917 | F1 0.916 | Prec 0.917 | Recall 0.917 | AUC 0.986 | s_mean 0.465
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 34200
+Loss 0.0103 | L_task 0.0392 | L_budget 0.0000 | L_entropy -0.0289
+TRAIN → Acc 0.933 | F1 0.933 | Prec 0.933 | Recall 0.933 | AUC 0.992 | s_mean 0.454
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2263 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.986 | s_mean 0.453
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 34500
+Loss 0.1124 | L_task 0.1382 | L_budget 0.0000 | L_entropy -0.0258
+TRAIN → Acc 0.932 | F1 0.931 | Prec 0.932 | Recall 0.931 | AUC 0.992 | s_mean 0.457
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2381 | Acc 0.916 | F1 0.915 | Prec 0.915 | Recall 0.916 | AUC 0.986 | s_mean 0.492
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 34800
+Loss 0.0717 | L_task 0.0954 | L_budget 0.0000 | L_entropy -0.0237
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.992 | s_mean 0.477
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2346 | Acc 0.916 | F1 0.916 | Prec 0.916 | Recall 0.916 | AUC 0.986 | s_mean 0.463
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 35100
+Loss 0.1049 | L_task 0.1259 | L_budget 0.0000 | L_entropy -0.0210
+TRAIN → Acc 0.928 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.991 | s_mean 0.438
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2235 | Acc 0.919 | F1 0.919 | Prec 0.920 | Recall 0.919 | AUC 0.987 | s_mean 0.446
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 35400
+Loss 0.1669 | L_task 0.1847 | L_budget 0.0000 | L_entropy -0.0178
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.991 | s_mean 0.437
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2395 | Acc 0.912 | F1 0.912 | Prec 0.915 | Recall 0.912 | AUC 0.986 | s_mean 0.441
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 35700
+Loss 0.2490 | L_task 0.2644 | L_budget 0.0000 | L_entropy -0.0154
+TRAIN → Acc 0.937 | F1 0.937 | Prec 0.938 | Recall 0.937 | AUC 0.992 | s_mean 0.453
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2379 | Acc 0.913 | F1 0.913 | Prec 0.914 | Recall 0.913 | AUC 0.986 | s_mean 0.439
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 36000
+Loss 0.1124 | L_task 0.1251 | L_budget 0.0000 | L_entropy -0.0127
+TRAIN → Acc 0.931 | F1 0.931 | Prec 0.932 | Recall 0.932 | AUC 0.991 | s_mean 0.454
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2371 | Acc 0.914 | F1 0.913 | Prec 0.914 | Recall 0.914 | AUC 0.986 | s_mean 0.418
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 36300
+Loss 0.5306 | L_task 0.5408 | L_budget 0.0000 | L_entropy -0.0102
+TRAIN → Acc 0.931 | F1 0.930 | Prec 0.930 | Recall 0.930 | AUC 0.991 | s_mean 0.443
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2397 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.986 | s_mean 0.423
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 36600
+Loss 0.1908 | L_task 0.1986 | L_budget 0.0000 | L_entropy -0.0078
+TRAIN → Acc 0.934 | F1 0.933 | Prec 0.934 | Recall 0.933 | AUC 0.992 | s_mean 0.419
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2370 | Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.917 | AUC 0.987 | s_mean 0.400
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 36900
+Loss 0.1436 | L_task 0.1488 | L_budget 0.0000 | L_entropy -0.0052
+TRAIN → Acc 0.935 | F1 0.936 | Prec 0.936 | Recall 0.936 | AUC 0.992 | s_mean 0.411
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2525 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.986 | s_mean 0.418
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 37200
+Loss 0.2724 | L_task 0.2750 | L_budget 0.0000 | L_entropy -0.0025
+TRAIN → Acc 0.926 | F1 0.926 | Prec 0.926 | Recall 0.926 | AUC 0.991 | s_mean 0.400
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2419 | Acc 0.921 | F1 0.921 | Prec 0.921 | Recall 0.921 | AUC 0.987 | s_mean 0.393
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+NEW BEST MODEL SAVED
+
+Step 37500
+Loss 0.0953 | L_task 0.0953 | L_budget 0.0000 | L_entropy -0.0000
+TRAIN → Acc 0.927 | F1 0.928 | Prec 0.928 | Recall 0.928 | AUC 0.991 | s_mean 0.410
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2516 | Acc 0.919 | F1 0.919 | Prec 0.919 | Recall 0.919 | AUC 0.987 | s_mean 0.411
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 37800
+Loss 0.1349 | L_task 0.1324 | L_budget 0.0000 | L_entropy 0.0025
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.939 | Recall 0.939 | AUC 0.994 | s_mean 0.428
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2601 | Acc 0.918 | F1 0.918 | Prec 0.918 | Recall 0.918 | AUC 0.986 | s_mean 0.430
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 38100
+Loss 0.1519 | L_task 0.1469 | L_budget 0.0000 | L_entropy 0.0050
+TRAIN → Acc 0.945 | F1 0.945 | Prec 0.945 | Recall 0.945 | AUC 0.995 | s_mean 0.448
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2727 | Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.917 | AUC 0.986 | s_mean 0.437
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 38400
+Loss 0.0679 | L_task 0.0605 | L_budget 0.0000 | L_entropy 0.0074
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.939 | Recall 0.938 | AUC 0.993 | s_mean 0.412
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2803 | Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.986 | s_mean 0.433
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 38700
+Loss 0.0439 | L_task 0.0343 | L_budget 0.0000 | L_entropy 0.0096
+TRAIN → Acc 0.941 | F1 0.942 | Prec 0.942 | Recall 0.941 | AUC 0.994 | s_mean 0.421
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3146 | Acc 0.907 | F1 0.907 | Prec 0.910 | Recall 0.907 | AUC 0.985 | s_mean 0.427
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 39000
+Loss 0.1411 | L_task 0.1285 | L_budget 0.0000 | L_entropy 0.0125
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.938 | Recall 0.938 | AUC 0.992 | s_mean 0.406
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2715 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.987 | s_mean 0.412
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 39300
+Loss 0.0599 | L_task 0.0456 | L_budget 0.0000 | L_entropy 0.0143
+TRAIN → Acc 0.941 | F1 0.941 | Prec 0.941 | Recall 0.941 | AUC 0.994 | s_mean 0.410
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2918 | Acc 0.913 | F1 0.913 | Prec 0.915 | Recall 0.913 | AUC 0.986 | s_mean 0.407
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 39600
+Loss 0.5068 | L_task 0.4900 | L_budget 0.0000 | L_entropy 0.0167
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.939 | Recall 0.938 | AUC 0.993 | s_mean 0.401
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2839 | Acc 0.913 | F1 0.913 | Prec 0.914 | Recall 0.913 | AUC 0.986 | s_mean 0.383
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 39900
+Loss 0.0958 | L_task 0.0767 | L_budget 0.0000 | L_entropy 0.0192
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.993 | s_mean 0.387
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2839 | Acc 0.916 | F1 0.916 | Prec 0.917 | Recall 0.916 | AUC 0.986 | s_mean 0.397
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 40200
+Loss 0.0501 | L_task 0.0276 | L_budget 0.0000 | L_entropy 0.0225
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.939 | Recall 0.938 | AUC 0.993 | s_mean 0.397
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2885 | Acc 0.914 | F1 0.913 | Prec 0.914 | Recall 0.914 | AUC 0.986 | s_mean 0.396
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 40500
+Loss 0.0689 | L_task 0.0453 | L_budget 0.0000 | L_entropy 0.0236
+TRAIN → Acc 0.934 | F1 0.933 | Prec 0.933 | Recall 0.933 | AUC 0.992 | s_mean 0.392
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2969 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.985 | s_mean 0.399
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 40800
+Loss 0.1959 | L_task 0.1699 | L_budget 0.0000 | L_entropy 0.0260
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.991 | s_mean 0.382
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2933 | Acc 0.912 | F1 0.912 | Prec 0.913 | Recall 0.912 | AUC 0.986 | s_mean 0.354
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 41100
+Loss 0.4242 | L_task 0.3966 | L_budget 0.0000 | L_entropy 0.0275
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.939 | Recall 0.939 | AUC 0.994 | s_mean 0.377
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2962 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.376
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 41400
+Loss 0.1841 | L_task 0.1545 | L_budget 0.0000 | L_entropy 0.0296
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.939 | Recall 0.938 | AUC 0.993 | s_mean 0.374
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3037 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.986 | s_mean 0.371
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 41700
+Loss 0.0617 | L_task 0.0275 | L_budget 0.0000 | L_entropy 0.0342
+TRAIN → Acc 0.931 | F1 0.931 | Prec 0.931 | Recall 0.931 | AUC 0.992 | s_mean 0.362
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3127 | Acc 0.914 | F1 0.913 | Prec 0.913 | Recall 0.914 | AUC 0.985 | s_mean 0.373
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 42000
+Loss 0.1059 | L_task 0.0703 | L_budget 0.0000 | L_entropy 0.0356
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.993 | s_mean 0.363
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3117 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.390
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 42300
+Loss 0.1147 | L_task 0.0755 | L_budget 0.0000 | L_entropy 0.0391
+TRAIN → Acc 0.936 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.993 | s_mean 0.379
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3099 | Acc 0.909 | F1 0.910 | Prec 0.910 | Recall 0.909 | AUC 0.986 | s_mean 0.351
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 42600
+Loss 0.1956 | L_task 0.1572 | L_budget 0.0000 | L_entropy 0.0384
+TRAIN → Acc 0.939 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.993 | s_mean 0.365
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3099 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.381
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 42900
+Loss 0.2815 | L_task 0.2397 | L_budget 0.0000 | L_entropy 0.0419
+TRAIN → Acc 0.930 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.991 | s_mean 0.360
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3016 | Acc 0.917 | F1 0.917 | Prec 0.917 | Recall 0.917 | AUC 0.987 | s_mean 0.349
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 43200
+Loss 0.0838 | L_task 0.0396 | L_budget 0.0000 | L_entropy 0.0443
+TRAIN → Acc 0.931 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.992 | s_mean 0.352
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3195 | Acc 0.914 | F1 0.914 | Prec 0.913 | Recall 0.914 | AUC 0.986 | s_mean 0.361
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 43500
+Loss 0.2426 | L_task 0.1976 | L_budget 0.0000 | L_entropy 0.0450
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.939 | Recall 0.939 | AUC 0.993 | s_mean 0.355
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3243 | Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.986 | s_mean 0.356
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 43800
+Loss 0.5167 | L_task 0.4662 | L_budget 0.0000 | L_entropy 0.0505
+TRAIN → Acc 0.933 | F1 0.933 | Prec 0.933 | Recall 0.933 | AUC 0.992 | s_mean 0.339
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3200 | Acc 0.914 | F1 0.913 | Prec 0.915 | Recall 0.914 | AUC 0.986 | s_mean 0.332
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 44100
+Loss 0.1888 | L_task 0.1394 | L_budget 0.0000 | L_entropy 0.0494
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.938 | Recall 0.938 | AUC 0.992 | s_mean 0.340
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3240 | Acc 0.911 | F1 0.911 | Prec 0.912 | Recall 0.911 | AUC 0.985 | s_mean 0.340
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 44400
+Loss 0.3028 | L_task 0.2520 | L_budget 0.0000 | L_entropy 0.0508
+TRAIN → Acc 0.936 | F1 0.936 | Prec 0.936 | Recall 0.936 | AUC 0.992 | s_mean 0.338
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3291 | Acc 0.909 | F1 0.909 | Prec 0.910 | Recall 0.909 | AUC 0.985 | s_mean 0.332
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 44700
+Loss 0.4608 | L_task 0.4022 | L_budget 0.0000 | L_entropy 0.0586
+TRAIN → Acc 0.932 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.991 | s_mean 0.330
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3137 | Acc 0.918 | F1 0.918 | Prec 0.918 | Recall 0.918 | AUC 0.986 | s_mean 0.321
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 45000
+Loss 0.1233 | L_task 0.0699 | L_budget 0.0000 | L_entropy 0.0534
+TRAIN → Acc 0.934 | F1 0.934 | Prec 0.934 | Recall 0.935 | AUC 0.993 | s_mean 0.335
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3226 | Acc 0.916 | F1 0.916 | Prec 0.916 | Recall 0.916 | AUC 0.986 | s_mean 0.344
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 45300
+Loss 0.1576 | L_task 0.1086 | L_budget 0.0000 | L_entropy 0.0490
+TRAIN → Acc 0.942 | F1 0.942 | Prec 0.942 | Recall 0.942 | AUC 0.993 | s_mean 0.352
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3232 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.352
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 45600
+Loss 0.1246 | L_task 0.0729 | L_budget 0.0000 | L_entropy 0.0517
+TRAIN → Acc 0.940 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.994 | s_mean 0.359
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3741 | Acc 0.901 | F1 0.901 | Prec 0.903 | Recall 0.901 | AUC 0.985 | s_mean 0.366
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 45900
+Loss 0.2040 | L_task 0.1466 | L_budget 0.0000 | L_entropy 0.0573
+TRAIN → Acc 0.940 | F1 0.941 | Prec 0.941 | Recall 0.941 | AUC 0.993 | s_mean 0.335
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3445 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.338
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 46200
+Loss 0.5186 | L_task 0.4635 | L_budget 0.0000 | L_entropy 0.0551
+TRAIN → Acc 0.940 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.994 | s_mean 0.352
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3387 | Acc 0.913 | F1 0.913 | Prec 0.914 | Recall 0.913 | AUC 0.985 | s_mean 0.337
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 46500
+Loss 0.1488 | L_task 0.0841 | L_budget 0.0000 | L_entropy 0.0647
+TRAIN → Acc 0.934 | F1 0.934 | Prec 0.935 | Recall 0.934 | AUC 0.993 | s_mean 0.337
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3338 | Acc 0.916 | F1 0.916 | Prec 0.917 | Recall 0.916 | AUC 0.986 | s_mean 0.324
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 46800
+Loss 0.1771 | L_task 0.1149 | L_budget 0.0000 | L_entropy 0.0622
+TRAIN → Acc 0.944 | F1 0.943 | Prec 0.943 | Recall 0.943 | AUC 0.995 | s_mean 0.340
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3559 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.342
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 47100
+Loss 0.3209 | L_task 0.2579 | L_budget 0.0000 | L_entropy 0.0630
+TRAIN → Acc 0.943 | F1 0.943 | Prec 0.943 | Recall 0.943 | AUC 0.994 | s_mean 0.337
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3515 | Acc 0.908 | F1 0.908 | Prec 0.909 | Recall 0.908 | AUC 0.985 | s_mean 0.329
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 47400
+Loss 0.1354 | L_task 0.0734 | L_budget 0.0000 | L_entropy 0.0620
+TRAIN → Acc 0.940 | F1 0.939 | Prec 0.940 | Recall 0.939 | AUC 0.993 | s_mean 0.326
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3417 | Acc 0.912 | F1 0.912 | Prec 0.911 | Recall 0.912 | AUC 0.986 | s_mean 0.328
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 47700
+Loss 0.1051 | L_task 0.0355 | L_budget 0.0000 | L_entropy 0.0695
+TRAIN → Acc 0.942 | F1 0.942 | Prec 0.942 | Recall 0.942 | AUC 0.994 | s_mean 0.324
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3383 | Acc 0.909 | F1 0.909 | Prec 0.910 | Recall 0.909 | AUC 0.986 | s_mean 0.330
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 48000
+Loss 0.2402 | L_task 0.1843 | L_budget 0.0000 | L_entropy 0.0560
+TRAIN → Acc 0.935 | F1 0.936 | Prec 0.936 | Recall 0.936 | AUC 0.993 | s_mean 0.335
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3575 | Acc 0.909 | F1 0.909 | Prec 0.909 | Recall 0.909 | AUC 0.985 | s_mean 0.336
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 48300
+Loss 0.3226 | L_task 0.2536 | L_budget 0.0000 | L_entropy 0.0690
+TRAIN → Acc 0.946 | F1 0.946 | Prec 0.946 | Recall 0.946 | AUC 0.994 | s_mean 0.328
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3421 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.320
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 48600
+Loss 0.3158 | L_task 0.2509 | L_budget 0.0000 | L_entropy 0.0649
+TRAIN → Acc 0.939 | F1 0.938 | Prec 0.938 | Recall 0.938 | AUC 0.993 | s_mean 0.325
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3574 | Acc 0.907 | F1 0.906 | Prec 0.907 | Recall 0.907 | AUC 0.984 | s_mean 0.305
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 48900
+Loss 0.1575 | L_task 0.0890 | L_budget 0.0000 | L_entropy 0.0685
+TRAIN → Acc 0.940 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.994 | s_mean 0.321
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3650 | Acc 0.904 | F1 0.904 | Prec 0.906 | Recall 0.904 | AUC 0.985 | s_mean 0.317
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 49200
+Loss 0.3949 | L_task 0.3226 | L_budget 0.0000 | L_entropy 0.0723
+TRAIN → Acc 0.926 | F1 0.926 | Prec 0.926 | Recall 0.926 | AUC 0.991 | s_mean 0.316
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3386 | Acc 0.914 | F1 0.914 | Prec 0.914 | Recall 0.914 | AUC 0.986 | s_mean 0.316
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 49500
+Loss 0.1942 | L_task 0.1255 | L_budget 0.0000 | L_entropy 0.0688
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.992 | s_mean 0.319
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3530 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.331
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 49800
+Loss 0.1097 | L_task 0.0524 | L_budget 0.0000 | L_entropy 0.0573
+TRAIN → Acc 0.939 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.993 | s_mean 0.321
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3708 | Acc 0.902 | F1 0.901 | Prec 0.901 | Recall 0.902 | AUC 0.982 | s_mean 0.313
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 50100
+Loss 0.3044 | L_task 0.2370 | L_budget 0.0000 | L_entropy 0.0674
+TRAIN → Acc 0.934 | F1 0.934 | Prec 0.935 | Recall 0.934 | AUC 0.992 | s_mean 0.300
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3679 | Acc 0.905 | F1 0.905 | Prec 0.906 | Recall 0.905 | AUC 0.984 | s_mean 0.303
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 50400
+Loss 0.1568 | L_task 0.0949 | L_budget 0.0000 | L_entropy 0.0620
+TRAIN → Acc 0.929 | F1 0.930 | Prec 0.930 | Recall 0.930 | AUC 0.991 | s_mean 0.302
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3561 | Acc 0.906 | F1 0.906 | Prec 0.906 | Recall 0.906 | AUC 0.984 | s_mean 0.294
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 50700
+Loss 0.1855 | L_task 0.1131 | L_budget 0.0000 | L_entropy 0.0723
+TRAIN → Acc 0.937 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.992 | s_mean 0.296
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3567 | Acc 0.909 | F1 0.908 | Prec 0.909 | Recall 0.909 | AUC 0.985 | s_mean 0.300
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 51000
+Loss 0.3336 | L_task 0.2748 | L_budget 0.0000 | L_entropy 0.0588
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.992 | s_mean 0.319
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3771 | Acc 0.896 | F1 0.896 | Prec 0.898 | Recall 0.896 | AUC 0.982 | s_mean 0.320
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 51300
+Loss 0.4160 | L_task 0.3498 | L_budget 0.0000 | L_entropy 0.0662
+TRAIN → Acc 0.932 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.991 | s_mean 0.310
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3541 | Acc 0.909 | F1 0.909 | Prec 0.909 | Recall 0.909 | AUC 0.985 | s_mean 0.322
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 51600
+Loss 0.3154 | L_task 0.2558 | L_budget 0.0000 | L_entropy 0.0595
+TRAIN → Acc 0.943 | F1 0.943 | Prec 0.943 | Recall 0.942 | AUC 0.993 | s_mean 0.316
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3581 | Acc 0.902 | F1 0.902 | Prec 0.903 | Recall 0.902 | AUC 0.983 | s_mean 0.323
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 51900
+Loss 0.1613 | L_task 0.1005 | L_budget 0.0000 | L_entropy 0.0607
+TRAIN → Acc 0.936 | F1 0.936 | Prec 0.936 | Recall 0.936 | AUC 0.992 | s_mean 0.303
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3581 | Acc 0.906 | F1 0.906 | Prec 0.906 | Recall 0.906 | AUC 0.984 | s_mean 0.303
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 52200
+Loss 0.4225 | L_task 0.3641 | L_budget 0.0000 | L_entropy 0.0584
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.938 | Recall 0.938 | AUC 0.992 | s_mean 0.303
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3835 | Acc 0.906 | F1 0.905 | Prec 0.906 | Recall 0.906 | AUC 0.984 | s_mean 0.313
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 52500
+Loss 0.3321 | L_task 0.2710 | L_budget 0.0000 | L_entropy 0.0611
+TRAIN → Acc 0.938 | F1 0.937 | Prec 0.938 | Recall 0.937 | AUC 0.992 | s_mean 0.294
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3746 | Acc 0.896 | F1 0.895 | Prec 0.896 | Recall 0.896 | AUC 0.982 | s_mean 0.294
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 52800
+Loss 0.2047 | L_task 0.1534 | L_budget 0.0000 | L_entropy 0.0513
+TRAIN → Acc 0.940 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.994 | s_mean 0.306
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3426 | Acc 0.905 | F1 0.905 | Prec 0.906 | Recall 0.905 | AUC 0.984 | s_mean 0.296
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 53100
+Loss 0.1735 | L_task 0.1170 | L_budget 0.0000 | L_entropy 0.0565
+TRAIN → Acc 0.949 | F1 0.949 | Prec 0.949 | Recall 0.949 | AUC 0.995 | s_mean 0.315
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.4187 | Acc 0.894 | F1 0.894 | Prec 0.896 | Recall 0.894 | AUC 0.981 | s_mean 0.315
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 53400
+Loss 0.2200 | L_task 0.1846 | L_budget 0.0000 | L_entropy 0.0354
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.939 | Recall 0.939 | AUC 0.994 | s_mean 0.301
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3704 | Acc 0.895 | F1 0.895 | Prec 0.896 | Recall 0.895 | AUC 0.981 | s_mean 0.302
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 53700
+Loss 0.2468 | L_task 0.1928 | L_budget 0.0000 | L_entropy 0.0540
+TRAIN → Acc 0.937 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.992 | s_mean 0.298
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3652 | Acc 0.895 | F1 0.895 | Prec 0.896 | Recall 0.895 | AUC 0.982 | s_mean 0.285
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 54000
+Loss 0.4824 | L_task 0.4378 | L_budget 0.0000 | L_entropy 0.0447
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.939 | Recall 0.939 | AUC 0.993 | s_mean 0.286
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3505 | Acc 0.904 | F1 0.904 | Prec 0.904 | Recall 0.904 | AUC 0.983 | s_mean 0.277
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 54300
+Loss 0.4067 | L_task 0.3667 | L_budget 0.0000 | L_entropy 0.0401
+TRAIN → Acc 0.943 | F1 0.943 | Prec 0.943 | Recall 0.943 | AUC 0.994 | s_mean 0.290
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3699 | Acc 0.896 | F1 0.895 | Prec 0.899 | Recall 0.896 | AUC 0.982 | s_mean 0.290
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 54600
+Loss 0.4692 | L_task 0.4189 | L_budget 0.0000 | L_entropy 0.0503
+TRAIN → Acc 0.937 | F1 0.937 | Prec 0.938 | Recall 0.937 | AUC 0.993 | s_mean 0.290
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3641 | Acc 0.900 | F1 0.899 | Prec 0.901 | Recall 0.900 | AUC 0.983 | s_mean 0.295
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 54900
+Loss 0.1659 | L_task 0.1196 | L_budget 0.0000 | L_entropy 0.0463
+TRAIN → Acc 0.931 | F1 0.931 | Prec 0.931 | Recall 0.931 | AUC 0.992 | s_mean 0.293
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3483 | Acc 0.900 | F1 0.899 | Prec 0.900 | Recall 0.900 | AUC 0.983 | s_mean 0.288
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 55200
+Loss 0.3349 | L_task 0.2873 | L_budget 0.0000 | L_entropy 0.0476
+TRAIN → Acc 0.932 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.991 | s_mean 0.281
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3302 | Acc 0.904 | F1 0.904 | Prec 0.904 | Recall 0.904 | AUC 0.983 | s_mean 0.281
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 55500
+Loss 0.3550 | L_task 0.3167 | L_budget 0.0000 | L_entropy 0.0383
+TRAIN → Acc 0.938 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.993 | s_mean 0.279
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3486 | Acc 0.901 | F1 0.900 | Prec 0.900 | Recall 0.901 | AUC 0.982 | s_mean 0.288
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 55800
+Loss 0.3533 | L_task 0.3203 | L_budget 0.0000 | L_entropy 0.0330
+TRAIN → Acc 0.925 | F1 0.925 | Prec 0.925 | Recall 0.925 | AUC 0.991 | s_mean 0.276
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3590 | Acc 0.896 | F1 0.895 | Prec 0.896 | Recall 0.896 | AUC 0.982 | s_mean 0.274
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 56100
+Loss 0.1054 | L_task 0.0733 | L_budget 0.0000 | L_entropy 0.0321
+TRAIN → Acc 0.939 | F1 0.938 | Prec 0.938 | Recall 0.939 | AUC 0.993 | s_mean 0.280
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3482 | Acc 0.898 | F1 0.898 | Prec 0.900 | Recall 0.898 | AUC 0.982 | s_mean 0.280
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 56400
+Loss 0.1735 | L_task 0.1507 | L_budget 0.0000 | L_entropy 0.0228
+TRAIN → Acc 0.937 | F1 0.937 | Prec 0.938 | Recall 0.937 | AUC 0.992 | s_mean 0.278
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3560 | Acc 0.896 | F1 0.896 | Prec 0.898 | Recall 0.896 | AUC 0.982 | s_mean 0.289
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 56700
+Loss 0.0836 | L_task 0.0528 | L_budget 0.0000 | L_entropy 0.0309
+TRAIN → Acc 0.934 | F1 0.934 | Prec 0.934 | Recall 0.934 | AUC 0.992 | s_mean 0.273
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3269 | Acc 0.900 | F1 0.900 | Prec 0.902 | Recall 0.900 | AUC 0.984 | s_mean 0.267
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 57000
+Loss 0.0677 | L_task 0.0278 | L_budget 0.0000 | L_entropy 0.0399
+TRAIN → Acc 0.938 | F1 0.937 | Prec 0.937 | Recall 0.937 | AUC 0.993 | s_mean 0.276
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3191 | Acc 0.906 | F1 0.906 | Prec 0.907 | Recall 0.906 | AUC 0.984 | s_mean 0.272
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 57300
+Loss 0.0305 | L_task 0.0162 | L_budget 0.0000 | L_entropy 0.0143
+TRAIN → Acc 0.932 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.992 | s_mean 0.273
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3128 | Acc 0.902 | F1 0.902 | Prec 0.903 | Recall 0.902 | AUC 0.984 | s_mean 0.274
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 57600
+Loss 0.4257 | L_task 0.4029 | L_budget 0.0000 | L_entropy 0.0228
+TRAIN → Acc 0.934 | F1 0.934 | Prec 0.934 | Recall 0.934 | AUC 0.992 | s_mean 0.262
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3158 | Acc 0.905 | F1 0.905 | Prec 0.905 | Recall 0.905 | AUC 0.983 | s_mean 0.258
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 57900
+Loss 0.6785 | L_task 0.6574 | L_budget 0.0000 | L_entropy 0.0211
+TRAIN → Acc 0.932 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.991 | s_mean 0.254
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3170 | Acc 0.901 | F1 0.901 | Prec 0.903 | Recall 0.901 | AUC 0.983 | s_mean 0.253
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 58200
+Loss 0.1766 | L_task 0.1557 | L_budget 0.0000 | L_entropy 0.0209
+TRAIN → Acc 0.928 | F1 0.928 | Prec 0.928 | Recall 0.928 | AUC 0.992 | s_mean 0.248
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3127 | Acc 0.902 | F1 0.902 | Prec 0.905 | Recall 0.902 | AUC 0.984 | s_mean 0.257
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 58500
+Loss 0.1303 | L_task 0.1056 | L_budget 0.0000 | L_entropy 0.0247
+TRAIN → Acc 0.930 | F1 0.930 | Prec 0.931 | Recall 0.930 | AUC 0.990 | s_mean 0.248
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3039 | Acc 0.906 | F1 0.906 | Prec 0.907 | Recall 0.906 | AUC 0.984 | s_mean 0.254
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 58800
+Loss 0.0369 | L_task 0.0167 | L_budget 0.0000 | L_entropy 0.0201
+TRAIN → Acc 0.934 | F1 0.933 | Prec 0.934 | Recall 0.933 | AUC 0.993 | s_mean 0.249
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2967 | Acc 0.908 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.985 | s_mean 0.249
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 59100
+Loss 0.4086 | L_task 0.3950 | L_budget 0.0000 | L_entropy 0.0136
+TRAIN → Acc 0.931 | F1 0.932 | Prec 0.932 | Recall 0.932 | AUC 0.990 | s_mean 0.242
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3162 | Acc 0.898 | F1 0.898 | Prec 0.903 | Recall 0.898 | AUC 0.984 | s_mean 0.243
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 59400
+Loss 0.4949 | L_task 0.4740 | L_budget 0.0000 | L_entropy 0.0209
+TRAIN → Acc 0.929 | F1 0.929 | Prec 0.929 | Recall 0.929 | AUC 0.992 | s_mean 0.241
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2906 | Acc 0.901 | F1 0.901 | Prec 0.901 | Recall 0.901 | AUC 0.985 | s_mean 0.230
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 59700
+Loss 0.3254 | L_task 0.3135 | L_budget 0.0000 | L_entropy 0.0119
+TRAIN → Acc 0.931 | F1 0.931 | Prec 0.931 | Recall 0.930 | AUC 0.992 | s_mean 0.243
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2926 | Acc 0.906 | F1 0.906 | Prec 0.906 | Recall 0.906 | AUC 0.985 | s_mean 0.248
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 60000
+Loss 0.0966 | L_task 0.0794 | L_budget 0.0000 | L_entropy 0.0172
+TRAIN → Acc 0.933 | F1 0.933 | Prec 0.934 | Recall 0.933 | AUC 0.991 | s_mean 0.234
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2990 | Acc 0.904 | F1 0.905 | Prec 0.907 | Recall 0.904 | AUC 0.985 | s_mean 0.237
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 60300
+Loss 0.3496 | L_task 0.3371 | L_budget 0.0000 | L_entropy 0.0125
+TRAIN → Acc 0.950 | F1 0.949 | Prec 0.950 | Recall 0.949 | AUC 0.995 | s_mean 0.252
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3020 | Acc 0.906 | F1 0.906 | Prec 0.906 | Recall 0.906 | AUC 0.985 | s_mean 0.257
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 60600
+Loss 0.1470 | L_task 0.1296 | L_budget 0.0000 | L_entropy 0.0174
+TRAIN → Acc 0.950 | F1 0.950 | Prec 0.950 | Recall 0.950 | AUC 0.995 | s_mean 0.262
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3290 | Acc 0.899 | F1 0.899 | Prec 0.900 | Recall 0.899 | AUC 0.983 | s_mean 0.257
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 60900
+Loss 0.5782 | L_task 0.5719 | L_budget 0.0000 | L_entropy 0.0062
+TRAIN → Acc 0.942 | F1 0.942 | Prec 0.942 | Recall 0.942 | AUC 0.994 | s_mean 0.253
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3132 | Acc 0.902 | F1 0.902 | Prec 0.902 | Recall 0.902 | AUC 0.984 | s_mean 0.245
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 61200
+Loss 0.0766 | L_task 0.0575 | L_budget 0.0000 | L_entropy 0.0190
+TRAIN → Acc 0.943 | F1 0.942 | Prec 0.942 | Recall 0.942 | AUC 0.994 | s_mean 0.256
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3239 | Acc 0.895 | F1 0.895 | Prec 0.898 | Recall 0.895 | AUC 0.984 | s_mean 0.259
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 61500
+Loss 0.2243 | L_task 0.2122 | L_budget 0.0000 | L_entropy 0.0120
+TRAIN → Acc 0.945 | F1 0.945 | Prec 0.945 | Recall 0.945 | AUC 0.994 | s_mean 0.248
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3043 | Acc 0.907 | F1 0.907 | Prec 0.908 | Recall 0.907 | AUC 0.984 | s_mean 0.240
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 61800
+Loss 0.3898 | L_task 0.3776 | L_budget 0.0000 | L_entropy 0.0123
+TRAIN → Acc 0.943 | F1 0.943 | Prec 0.943 | Recall 0.943 | AUC 0.995 | s_mean 0.241
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3098 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.257
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 62100
+Loss 0.0779 | L_task 0.0621 | L_budget 0.0000 | L_entropy 0.0157
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.935 | Recall 0.935 | AUC 0.993 | s_mean 0.242
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3028 | Acc 0.903 | F1 0.903 | Prec 0.904 | Recall 0.903 | AUC 0.984 | s_mean 0.239
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 62400
+Loss 0.1757 | L_task 0.1616 | L_budget 0.0000 | L_entropy 0.0141
+TRAIN → Acc 0.939 | F1 0.939 | Prec 0.940 | Recall 0.939 | AUC 0.994 | s_mean 0.242
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2977 | Acc 0.904 | F1 0.904 | Prec 0.904 | Recall 0.904 | AUC 0.984 | s_mean 0.234
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 62700
+Loss 0.1882 | L_task 0.1778 | L_budget 0.0000 | L_entropy 0.0105
+TRAIN → Acc 0.944 | F1 0.944 | Prec 0.944 | Recall 0.944 | AUC 0.994 | s_mean 0.245
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2980 | Acc 0.906 | F1 0.906 | Prec 0.907 | Recall 0.906 | AUC 0.984 | s_mean 0.234
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 63000
+Loss 0.0811 | L_task 0.0705 | L_budget 0.0000 | L_entropy 0.0106
+TRAIN → Acc 0.940 | F1 0.941 | Prec 0.941 | Recall 0.941 | AUC 0.994 | s_mean 0.238
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2898 | Acc 0.906 | F1 0.907 | Prec 0.907 | Recall 0.906 | AUC 0.984 | s_mean 0.232
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 63300
+Loss 0.1678 | L_task 0.1522 | L_budget 0.0000 | L_entropy 0.0156
+TRAIN → Acc 0.946 | F1 0.946 | Prec 0.946 | Recall 0.946 | AUC 0.994 | s_mean 0.240
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3064 | Acc 0.903 | F1 0.903 | Prec 0.904 | Recall 0.903 | AUC 0.984 | s_mean 0.237
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 63600
+Loss 0.0671 | L_task 0.0507 | L_budget 0.0000 | L_entropy 0.0165
+TRAIN → Acc 0.941 | F1 0.940 | Prec 0.940 | Recall 0.941 | AUC 0.993 | s_mean 0.234
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2888 | Acc 0.907 | F1 0.907 | Prec 0.907 | Recall 0.907 | AUC 0.985 | s_mean 0.228
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 63900
+Loss 0.1724 | L_task 0.1651 | L_budget 0.0000 | L_entropy 0.0073
+TRAIN → Acc 0.940 | F1 0.939 | Prec 0.940 | Recall 0.939 | AUC 0.994 | s_mean 0.229
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3102 | Acc 0.905 | F1 0.905 | Prec 0.906 | Recall 0.905 | AUC 0.984 | s_mean 0.231
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 64200
+Loss 0.0473 | L_task 0.0371 | L_budget 0.0000 | L_entropy 0.0101
+TRAIN → Acc 0.941 | F1 0.941 | Prec 0.941 | Recall 0.941 | AUC 0.994 | s_mean 0.234
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3154 | Acc 0.897 | F1 0.897 | Prec 0.898 | Recall 0.897 | AUC 0.984 | s_mean 0.226
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 64500
+Loss 0.1911 | L_task 0.1797 | L_budget 0.0000 | L_entropy 0.0114
+TRAIN → Acc 0.940 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.994 | s_mean 0.222
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3115 | Acc 0.900 | F1 0.899 | Prec 0.900 | Recall 0.900 | AUC 0.985 | s_mean 0.227
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 64800
+Loss 0.0711 | L_task 0.0536 | L_budget 0.0000 | L_entropy 0.0175
+TRAIN → Acc 0.943 | F1 0.943 | Prec 0.943 | Recall 0.943 | AUC 0.994 | s_mean 0.226
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3090 | Acc 0.905 | F1 0.905 | Prec 0.905 | Recall 0.905 | AUC 0.984 | s_mean 0.232
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 65100
+Loss 0.1390 | L_task 0.1301 | L_budget 0.0000 | L_entropy 0.0089
+TRAIN → Acc 0.939 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.994 | s_mean 0.229
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3048 | Acc 0.906 | F1 0.906 | Prec 0.907 | Recall 0.906 | AUC 0.984 | s_mean 0.238
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 65400
+Loss 0.0834 | L_task 0.0679 | L_budget 0.0000 | L_entropy 0.0155
+TRAIN → Acc 0.935 | F1 0.935 | Prec 0.936 | Recall 0.935 | AUC 0.992 | s_mean 0.228
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2965 | Acc 0.905 | F1 0.905 | Prec 0.906 | Recall 0.905 | AUC 0.984 | s_mean 0.219
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 65700
+Loss 0.4715 | L_task 0.4516 | L_budget 0.0000 | L_entropy 0.0198
+TRAIN → Acc 0.944 | F1 0.944 | Prec 0.944 | Recall 0.944 | AUC 0.994 | s_mean 0.221
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2997 | Acc 0.907 | F1 0.907 | Prec 0.907 | Recall 0.907 | AUC 0.985 | s_mean 0.212
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 66000
+Loss 0.1558 | L_task 0.1387 | L_budget 0.0000 | L_entropy 0.0171
+TRAIN → Acc 0.938 | F1 0.938 | Prec 0.939 | Recall 0.939 | AUC 0.994 | s_mean 0.218
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3042 | Acc 0.908 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.985 | s_mean 0.223
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 66300
+Loss 0.0218 | L_task 0.0137 | L_budget 0.0000 | L_entropy 0.0081
+TRAIN → Acc 0.943 | F1 0.942 | Prec 0.943 | Recall 0.942 | AUC 0.994 | s_mean 0.225
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3037 | Acc 0.905 | F1 0.905 | Prec 0.906 | Recall 0.905 | AUC 0.984 | s_mean 0.226
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 66600
+Loss 0.1658 | L_task 0.1552 | L_budget 0.0000 | L_entropy 0.0106
+TRAIN → Acc 0.944 | F1 0.943 | Prec 0.944 | Recall 0.943 | AUC 0.993 | s_mean 0.220
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2785 | Acc 0.908 | F1 0.908 | Prec 0.909 | Recall 0.908 | AUC 0.985 | s_mean 0.203
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 66900
+Loss 0.0241 | L_task 0.0141 | L_budget 0.0000 | L_entropy 0.0100
+TRAIN → Acc 0.941 | F1 0.941 | Prec 0.942 | Recall 0.941 | AUC 0.993 | s_mean 0.208
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2824 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.212
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 67200
+Loss 0.0469 | L_task 0.0370 | L_budget 0.0000 | L_entropy 0.0099
+TRAIN → Acc 0.941 | F1 0.941 | Prec 0.941 | Recall 0.941 | AUC 0.993 | s_mean 0.215
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2774 | Acc 0.913 | F1 0.913 | Prec 0.914 | Recall 0.913 | AUC 0.986 | s_mean 0.198
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 67500
+Loss 0.1806 | L_task 0.1640 | L_budget 0.0000 | L_entropy 0.0165
+TRAIN → Acc 0.940 | F1 0.940 | Prec 0.940 | Recall 0.940 | AUC 0.993 | s_mean 0.208
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2850 | Acc 0.908 | F1 0.908 | Prec 0.908 | Recall 0.908 | AUC 0.985 | s_mean 0.199
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 67800
+Loss 0.3489 | L_task 0.3318 | L_budget 0.0000 | L_entropy 0.0171
+TRAIN → Acc 0.956 | F1 0.957 | Prec 0.957 | Recall 0.957 | AUC 0.996 | s_mean 0.224
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2969 | Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.985 | s_mean 0.221
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 68100
+Loss 0.0101 | L_task 0.0076 | L_budget 0.0000 | L_entropy 0.0025
+TRAIN → Acc 0.954 | F1 0.954 | Prec 0.954 | Recall 0.954 | AUC 0.996 | s_mean 0.237
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3076 | Acc 0.903 | F1 0.903 | Prec 0.903 | Recall 0.903 | AUC 0.984 | s_mean 0.221
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 68400
+Loss 0.1682 | L_task 0.1598 | L_budget 0.0000 | L_entropy 0.0083
+TRAIN → Acc 0.955 | F1 0.954 | Prec 0.954 | Recall 0.954 | AUC 0.996 | s_mean 0.234
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3059 | Acc 0.910 | F1 0.910 | Prec 0.910 | Recall 0.910 | AUC 0.984 | s_mean 0.229
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 68700
+Loss 0.1558 | L_task 0.1431 | L_budget 0.0000 | L_entropy 0.0126
+TRAIN → Acc 0.958 | F1 0.958 | Prec 0.958 | Recall 0.958 | AUC 0.996 | s_mean 0.236
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3346 | Acc 0.903 | F1 0.902 | Prec 0.903 | Recall 0.903 | AUC 0.984 | s_mean 0.239
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 69000
+Loss 0.0896 | L_task 0.0815 | L_budget 0.0000 | L_entropy 0.0081
+TRAIN → Acc 0.958 | F1 0.957 | Prec 0.958 | Recall 0.957 | AUC 0.997 | s_mean 0.238
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3015 | Acc 0.910 | F1 0.910 | Prec 0.910 | Recall 0.910 | AUC 0.985 | s_mean 0.228
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 69300
+Loss 0.2571 | L_task 0.2456 | L_budget 0.0000 | L_entropy 0.0115
+TRAIN → Acc 0.955 | F1 0.955 | Prec 0.955 | Recall 0.955 | AUC 0.995 | s_mean 0.238
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3202 | Acc 0.907 | F1 0.907 | Prec 0.909 | Recall 0.907 | AUC 0.983 | s_mean 0.242
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 69600
+Loss 0.1699 | L_task 0.1556 | L_budget 0.0000 | L_entropy 0.0143
+TRAIN → Acc 0.951 | F1 0.951 | Prec 0.951 | Recall 0.951 | AUC 0.996 | s_mean 0.229
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3158 | Acc 0.906 | F1 0.906 | Prec 0.909 | Recall 0.906 | AUC 0.984 | s_mean 0.220
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 69900
+Loss 0.2184 | L_task 0.2145 | L_budget 0.0000 | L_entropy 0.0038
+TRAIN → Acc 0.950 | F1 0.950 | Prec 0.951 | Recall 0.950 | AUC 0.996 | s_mean 0.227
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3132 | Acc 0.896 | F1 0.895 | Prec 0.898 | Recall 0.896 | AUC 0.982 | s_mean 0.218
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 70200
+Loss 0.0251 | L_task 0.0169 | L_budget 0.0000 | L_entropy 0.0083
+TRAIN → Acc 0.954 | F1 0.954 | Prec 0.954 | Recall 0.954 | AUC 0.996 | s_mean 0.229
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2907 | Acc 0.910 | F1 0.910 | Prec 0.910 | Recall 0.910 | AUC 0.985 | s_mean 0.223
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 70500
+Loss 0.6919 | L_task 0.6795 | L_budget 0.0000 | L_entropy 0.0124
+TRAIN → Acc 0.946 | F1 0.946 | Prec 0.946 | Recall 0.946 | AUC 0.994 | s_mean 0.228
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2866 | Acc 0.909 | F1 0.909 | Prec 0.909 | Recall 0.909 | AUC 0.986 | s_mean 0.225
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 70800
+Loss 0.0140 | L_task 0.0092 | L_budget 0.0000 | L_entropy 0.0047
+TRAIN → Acc 0.957 | F1 0.957 | Prec 0.957 | Recall 0.957 | AUC 0.997 | s_mean 0.227
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3260 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.984 | s_mean 0.237
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 71100
+Loss 0.0815 | L_task 0.0764 | L_budget 0.0000 | L_entropy 0.0050
+TRAIN → Acc 0.948 | F1 0.948 | Prec 0.948 | Recall 0.948 | AUC 0.996 | s_mean 0.227
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3124 | Acc 0.907 | F1 0.907 | Prec 0.907 | Recall 0.907 | AUC 0.985 | s_mean 0.223
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 71400
+Loss 0.0103 | L_task 0.0070 | L_budget 0.0000 | L_entropy 0.0033
+TRAIN → Acc 0.953 | F1 0.953 | Prec 0.953 | Recall 0.953 | AUC 0.996 | s_mean 0.219
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3102 | Acc 0.907 | F1 0.907 | Prec 0.908 | Recall 0.907 | AUC 0.985 | s_mean 0.233
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 71700
+Loss 0.0935 | L_task 0.0815 | L_budget 0.0000 | L_entropy 0.0119
+TRAIN → Acc 0.953 | F1 0.953 | Prec 0.953 | Recall 0.953 | AUC 0.995 | s_mean 0.225
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3127 | Acc 0.909 | F1 0.909 | Prec 0.911 | Recall 0.909 | AUC 0.985 | s_mean 0.224
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 72000
+Loss 0.0404 | L_task 0.0303 | L_budget 0.0000 | L_entropy 0.0101
+TRAIN → Acc 0.955 | F1 0.955 | Prec 0.955 | Recall 0.955 | AUC 0.996 | s_mean 0.218
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3006 | Acc 0.912 | F1 0.912 | Prec 0.915 | Recall 0.912 | AUC 0.985 | s_mean 0.219
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 72300
+Loss 0.0820 | L_task 0.0714 | L_budget 0.0000 | L_entropy 0.0106
+TRAIN → Acc 0.950 | F1 0.950 | Prec 0.950 | Recall 0.950 | AUC 0.996 | s_mean 0.221
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3007 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.230
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 72600
+Loss 0.0684 | L_task 0.0656 | L_budget 0.0000 | L_entropy 0.0028
+TRAIN → Acc 0.950 | F1 0.950 | Prec 0.950 | Recall 0.950 | AUC 0.995 | s_mean 0.224
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3163 | Acc 0.909 | F1 0.909 | Prec 0.909 | Recall 0.909 | AUC 0.985 | s_mean 0.222
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 72900
+Loss 0.0774 | L_task 0.0719 | L_budget 0.0000 | L_entropy 0.0056
+TRAIN → Acc 0.951 | F1 0.951 | Prec 0.951 | Recall 0.951 | AUC 0.995 | s_mean 0.217
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2994 | Acc 0.912 | F1 0.912 | Prec 0.912 | Recall 0.912 | AUC 0.985 | s_mean 0.229
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 73200
+Loss 0.2566 | L_task 0.2447 | L_budget 0.0000 | L_entropy 0.0119
+TRAIN → Acc 0.948 | F1 0.949 | Prec 0.949 | Recall 0.949 | AUC 0.995 | s_mean 0.215
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3114 | Acc 0.901 | F1 0.901 | Prec 0.904 | Recall 0.901 | AUC 0.985 | s_mean 0.221
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 73500
+Loss 0.0877 | L_task 0.0788 | L_budget 0.0000 | L_entropy 0.0089
+TRAIN → Acc 0.957 | F1 0.956 | Prec 0.956 | Recall 0.956 | AUC 0.996 | s_mean 0.224
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2937 | Acc 0.914 | F1 0.914 | Prec 0.914 | Recall 0.914 | AUC 0.985 | s_mean 0.225
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 73800
+Loss 0.1551 | L_task 0.1457 | L_budget 0.0000 | L_entropy 0.0094
+TRAIN → Acc 0.949 | F1 0.949 | Prec 0.949 | Recall 0.949 | AUC 0.995 | s_mean 0.212
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2768 | Acc 0.915 | F1 0.915 | Prec 0.916 | Recall 0.915 | AUC 0.986 | s_mean 0.194
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 74100
+Loss 0.0442 | L_task 0.0357 | L_budget 0.0000 | L_entropy 0.0085
+TRAIN → Acc 0.950 | F1 0.950 | Prec 0.951 | Recall 0.950 | AUC 0.995 | s_mean 0.208
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2719 | Acc 0.913 | F1 0.913 | Prec 0.913 | Recall 0.913 | AUC 0.986 | s_mean 0.202
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 74400
+Loss 0.0888 | L_task 0.0746 | L_budget 0.0000 | L_entropy 0.0142
+TRAIN → Acc 0.957 | F1 0.958 | Prec 0.958 | Recall 0.957 | AUC 0.996 | s_mean 0.211
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2947 | Acc 0.915 | F1 0.915 | Prec 0.915 | Recall 0.915 | AUC 0.985 | s_mean 0.220
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 74700
+Loss 0.2043 | L_task 0.1991 | L_budget 0.0000 | L_entropy 0.0051
+TRAIN → Acc 0.949 | F1 0.948 | Prec 0.948 | Recall 0.949 | AUC 0.996 | s_mean 0.216
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.2971 | Acc 0.911 | F1 0.911 | Prec 0.911 | Recall 0.911 | AUC 0.985 | s_mean 0.221
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+
+Step 75000
+Loss 0.5204 | L_task 0.5084 | L_budget 0.0000 | L_entropy 0.0120
+TRAIN → Acc 0.955 | F1 0.955 | Prec 0.955 | Recall 0.955 | AUC 0.995 | s_mean 0.208
+TRAIN batches: 300
+TRAIN Total FLOPs: 3.03e+12
+TRAIN Total Carbon (gCO2): 0.010110
+TRAIN Avg Activation memory (MB): 176.00
+TRAIN Peak GPU memory (MB): 1031.38
+TRAIN Weight memory (MB): 206.70
+
+VAL → Loss 0.3152 | Acc 0.906 | F1 0.905 | Prec 0.907 | Recall 0.906 | AUC 0.985 | s_mean 0.212
+VAL batches: 475
+VAL Total FLOPs: 4.80e+12
+VAL Total Carbon (gCO2): 0.016007
+VAL Avg Activation memory (MB): 176.00
+VAL Peak GPU memory (MB): 888.44
+Training finished. Best val acc: 0.9212. Total carbon Train 2.5274 gCO2
+
+==============================
+STARTING TEST PHASE
+==============================
+
+
+--- AUTOMATIC BUDGET ---
+
+Mode topk_only=False
+Accuracy: 0.9051 | F1: 0.9046 | Precision: 0.9061 | Recall: 0.9051 | AUC: 0.9848 | s_mean: 0.2117
+FLOPs total: 4.65e+12 | over 475 batches
+Carbon total (gCO2): 0.015498
+Avg activation memory (MB): 65.93
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 1 head probs: [1.0, 6.07139824526648e-11, 3.2094301175011886e-12, 1.668105237273565e-11, 2.3798034723410133e-11, 1.1182059445058457e-10, 9.17375758691108e-11, 4.666993245854012e-13]
+Block 2 head probs: [2.4462610956085938e-17, 1.6811816763479155e-15, 1.366052317921737e-13, 3.352633829337856e-17, 2.809509257013555e-20, 1.0, 1.149608377495838e-19, 3.1352225740436442e-15]
+Block 3 head probs: [3.644374502154678e-14, 9.682396350614228e-15, 4.381544606302246e-12, 4.811654936656305e-15, 1.0, 1.0898468847493018e-14, 3.1288218001711277e-13, 1.3139564956909933e-11]
+
+Mode topk_only=True
+Accuracy: 0.9022 | F1: 0.9017 | Precision: 0.9036 | Recall: 0.9022 | AUC: 0.9848 | s_mean: 0.2119
+FLOPs total: 4.65e+12 | over 475 batches
+Carbon total (gCO2): 0.015498
+Avg activation memory (MB): 65.93
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 0 top-1 heads: [7]
+Block 1 head probs: [1.0, 6.07139824526648e-11, 3.2094301175011886e-12, 1.668105237273565e-11, 2.3798034723410133e-11, 1.1182059445058457e-10, 9.17375758691108e-11, 4.666993245854012e-13]
+Block 1 top-3 heads: [0, 5, 6]
+Block 2 head probs: [2.4462610956085938e-17, 1.68118802909502e-15, 1.3660548929018967e-13, 3.3526467333554115e-17, 2.809509257013555e-20, 1.0, 1.149608377495838e-19, 3.1352346442631426e-15]
+Block 2 top-1 heads: [5]
+Block 3 head probs: [3.644381617231435e-14, 9.682433620063907e-15, 4.381561519856136e-12, 4.8116735713811445e-15, 1.0, 1.0898468847493018e-14, 3.128833726395025e-13, 1.3139615263890736e-11]
+Block 3 top-1 heads: [4]
+
+--- USER CONTROLLED BUDGET ---
+
+s_override=0.1
+
+Mode topk_only=False
+Accuracy: 0.8953 | F1: 0.8946 | Precision: 0.8992 | Recall: 0.8953 | AUC: 0.9844 | s_mean: 0.1000
+FLOPs total: 4.63e+12 | over 475 batches
+Carbon total (gCO2): 0.015426
+Avg activation memory (MB): 62.80
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 1 head probs: [1.0, 7.950180791471695e-11, 5.010040993180809e-12, 3.104150617105894e-11, 3.089307629156046e-11, 1.2434958618356973e-10, 1.5073359227457672e-10, 6.024741794861954e-13]
+Block 2 head probs: [2.789604103270449e-09, 1.0300984598643481e-07, 7.273249593708897e-07, 2.4537727405515852e-09, 9.321889787861082e-11, 0.9991940855979919, 5.8670495491242036e-05, 0.0007463407819159329]
+Block 3 head probs: [3.19641344503907e-06, 0.0025976167526096106, 5.376153421821073e-05, 3.0165351745381486e-06, 0.9880257248878479, 1.5094353784661507e-06, 1.4979187881181133e-06, 0.009313758462667465]
+
+Mode topk_only=True
+Accuracy: 0.8905 | F1: 0.8899 | Precision: 0.8955 | Recall: 0.8905 | AUC: 0.9838 | s_mean: 0.1000
+FLOPs total: 4.63e+12 | over 475 batches
+Carbon total (gCO2): 0.015426
+Avg activation memory (MB): 62.80
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 0 top-1 heads: [7]
+Block 1 head probs: [1.0, 7.950180791471695e-11, 5.010040993180809e-12, 3.104150617105894e-11, 3.089307629156046e-11, 1.2434958618356973e-10, 1.5073359227457672e-10, 6.024741794861954e-13]
+Block 1 top-1 heads: [0]
+Block 2 head probs: [2.789609432340967e-09, 1.0300984598643481e-07, 7.273256983353349e-07, 2.4537774034882887e-09, 9.321889787861082e-11, 0.9991940855979919, 5.867055369890295e-05, 0.0007463411893695593]
+Block 2 top-1 heads: [5]
+Block 3 head probs: [3.1938400297804037e-06, 0.0025977392215281725, 5.371051520342007e-05, 3.0184014576661866e-06, 0.9880478382110596, 1.5087508700162289e-06, 1.499514496572374e-06, 0.00929152499884367]
+Block 3 top-1 heads: [4]
+
+s_override=0.25
+
+Mode topk_only=False
+Accuracy: 0.8968 | F1: 0.8965 | Precision: 0.8973 | Recall: 0.8968 | AUC: 0.9829 | s_mean: 0.2500
+FLOPs total: 4.66e+12 | over 475 batches
+Carbon total (gCO2): 0.015523
+Avg activation memory (MB): 67.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 1 head probs: [1.0, 3.0456671906708976e-11, 1.0386794506087038e-12, 3.3964742910536083e-12, 1.2040857894080048e-11, 8.561816533525501e-11, 2.5737601286324185e-11, 2.4431699068364066e-13]
+Block 2 head probs: [7.991828769940423e-13, 4.825937913177647e-11, 7.177267113966934e-11, 2.432828894935457e-12, 3.523815243980789e-15, 0.9999998807907104, 8.57825963040959e-11, 1.0506209946470335e-07]
+Block 3 head probs: [7.175563311936917e-13, 8.473962634023002e-13, 1.92204488436154e-10, 6.463724683530153e-14, 1.0, 2.497356163012887e-13, 6.957009838007289e-13, 5.012643425339469e-11]
+
+Mode topk_only=True
+Accuracy: 0.8974 | F1: 0.8970 | Precision: 0.8978 | Recall: 0.8974 | AUC: 0.9830 | s_mean: 0.2500
+FLOPs total: 4.66e+12 | over 475 batches
+Carbon total (gCO2): 0.015523
+Avg activation memory (MB): 67.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 0 top-2 heads: [7, 2]
+Block 1 head probs: [1.0, 3.045673435675411e-11, 1.0386814021726143e-12, 3.3964805794262087e-12, 1.2040880445485236e-11, 8.56183249298148e-11, 2.5737649858581513e-11, 2.4431699068364066e-13]
+Block 1 top-2 heads: [0, 5]
+Block 2 head probs: [7.991783233449179e-13, 4.8259101576020313e-11, 7.177239358391319e-11, 2.432819787637208e-12, 3.5238014796953963e-15, 0.9999998807907104, 8.578227017608242e-11, 1.0506169445534397e-07]
+Block 2 top-2 heads: [5, 7]
+Block 3 head probs: [7.175576864464073e-13, 8.473946370990415e-13, 1.92204488436154e-10, 6.463712486255713e-14, 1.0, 2.4973610419226633e-13, 6.957009838007289e-13, 5.012634057832699e-11]
+Block 3 top-2 heads: [4, 2]
+
+s_override=0.5
+
+Mode topk_only=False
+Accuracy: 0.8675 | F1: 0.8668 | Precision: 0.8684 | Recall: 0.8675 | AUC: 0.9706 | s_mean: 0.5000
+FLOPs total: 4.71e+12 | over 475 batches
+Carbon total (gCO2): 0.015684
+Avg activation memory (MB): 74.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 1 head probs: [1.0, 6.514613501429345e-12, 8.769237912860037e-14, 9.774491871276936e-14, 2.4823318314076692e-12, 4.9208775942943817e-11, 1.4946830665524269e-12, 5.979918437596515e-14]
+Block 2 head probs: [3.0151454629052005e-17, 3.2275838936452004e-15, 2.8599690269682127e-17, 7.496056294743346e-16, 9.608557460397246e-21, 1.0, 6.1994076711746225e-18, 8.016596067528248e-12]
+Block 3 head probs: [1.5716932470519033e-20, 1.0593945048881885e-22, 3.2075619008915706e-17, 3.632054447156857e-23, 1.0, 6.899064356081582e-21, 5.589998691693277e-20, 6.008597318084858e-20]
+
+Mode topk_only=True
+Accuracy: 0.8675 | F1: 0.8668 | Precision: 0.8684 | Recall: 0.8675 | AUC: 0.9706 | s_mean: 0.5000
+FLOPs total: 4.71e+12 | over 475 batches
+Carbon total (gCO2): 0.015684
+Avg activation memory (MB): 74.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 0 top-4 heads: [7, 2, 1, 6]
+Block 1 head probs: [1.0, 6.514613501429345e-12, 8.769237912860037e-14, 9.774491871276936e-14, 2.4823318314076692e-12, 4.9208775942943817e-11, 1.4946830665524269e-12, 5.979918437596515e-14]
+Block 1 top-4 heads: [0, 5, 1, 4]
+Block 2 head probs: [3.01513421324887e-17, 3.227546835953758e-15, 2.859947189400041e-17, 7.495999649414998e-16, 9.60848475897622e-21, 1.0, 6.199336533641943e-18, 8.016535352206589e-12]
+Block 2 top-4 heads: [5, 7, 1, 3]
+Block 3 head probs: [1.571687269379508e-20, 1.0593945048881885e-22, 3.207549658618505e-17, 3.6320405632049254e-23, 1.0, 6.899037698893872e-21, 5.58997736594311e-20, 6.00857405363013e-20]
+Block 3 top-4 heads: [4, 2, 7, 6]
+
+s_override=0.75
+
+Mode topk_only=False
+Accuracy: 0.8139 | F1: 0.8123 | Precision: 0.8212 | Recall: 0.8139 | AUC: 0.9454 | s_mean: 0.7500
+FLOPs total: 4.75e+12 | over 475 batches
+Carbon total (gCO2): 0.015846
+Avg activation memory (MB): 81.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 1 head probs: [1.0, 1.5811348541214243e-12, 9.361438626240629e-15, 3.747206419533718e-15, 5.459015943280743e-13, 3.026903727665342e-11, 1.0735773300083254e-13, 1.729699045940284e-14]
+Block 2 head probs: [4.9498792878024055e-19, 5.563160858078025e-17, 2.428496053601636e-22, 7.409060055359919e-17, 3.733621866425873e-23, 1.0, 1.52586146344407e-20, 5.364911206257039e-12]
+Block 3 head probs: [4.686219086466308e-19, 2.4402074447352235e-21, 3.5397115113019106e-16, 2.406326001384613e-23, 1.0, 6.388464763257292e-19, 1.971723129182438e-18, 7.952032989968302e-18]
+
+Mode topk_only=True
+Accuracy: 0.8139 | F1: 0.8123 | Precision: 0.8212 | Recall: 0.8139 | AUC: 0.9454 | s_mean: 0.7500
+FLOPs total: 4.75e+12 | over 475 batches
+Carbon total (gCO2): 0.015846
+Avg activation memory (MB): 81.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 0 top-6 heads: [7, 2, 1, 6, 4, 5]
+Block 1 head probs: [1.0, 1.5811348541214243e-12, 9.361438626240629e-15, 3.747206419533718e-15, 5.459015943280743e-13, 3.026903727665342e-11, 1.0735773300083254e-13, 1.729699045940284e-14]
+Block 1 top-6 heads: [0, 5, 1, 4, 6, 7]
+Block 2 head probs: [4.949898416354071e-19, 5.563203209725388e-17, 2.428505141279264e-22, 7.409088510372991e-17, 3.733636065922167e-23, 1.0, 1.525867279557752e-20, 5.364931589257882e-12]
+Block 2 top-6 heads: [5, 7, 3, 1, 0, 6]
+Block 3 head probs: [4.686255275618107e-19, 2.4402260239872633e-21, 3.5397385104771043e-16, 2.4063443029576143e-23, 1.0, 6.38851336011828e-19, 1.9717454630589768e-18, 7.952093374153019e-18]
+Block 3 top-6 heads: [4, 2, 7, 6, 5, 0]
+
+s_override=1.0
+
+Mode topk_only=False
+Accuracy: 0.7554 | F1: 0.7520 | Precision: 0.7712 | Recall: 0.7554 | AUC: 0.9107 | s_mean: 1.0000
+FLOPs total: 4.80e+12 | over 475 batches
+Carbon total (gCO2): 0.016007
+Avg activation memory (MB): 88.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 1 head probs: [1.0, 4.478156127168953e-13, 1.3036042463733391e-15, 2.075094401408087e-16, 1.3352529802321267e-13, 1.996570964113431e-11, 9.945641485126656e-15, 5.923428031574937e-15]
+Block 2 head probs: [1.4930543882133145e-18, 1.0629194770690051e-16, 5.889148643290133e-26, 7.475981084497827e-16, 7.038054806579754e-23, 1.0, 2.714742663901564e-19, 4.210089610268142e-09]
+Block 3 head probs: [3.2423295819039577e-12, 5.412637094710966e-14, 2.4849586277575497e-10, 3.0776634013706827e-18, 1.0, 2.9912742421922545e-11, 1.0821100959734764e-11, 2.1752977197309065e-09]
+
+Mode topk_only=True
+Accuracy: 0.7554 | F1: 0.7520 | Precision: 0.7712 | Recall: 0.7554 | AUC: 0.9107 | s_mean: 1.0000
+FLOPs total: 4.80e+12 | over 475 batches
+Carbon total (gCO2): 0.016007
+Avg activation memory (MB): 88.00
+Avg peak GPU memory per batch (MB): 888.46
+Example head probs (first sample):
+Block 0 head probs: [1.400504105047995e-11, 1.9491389058323705e-10, 2.573074253664487e-10, 9.061981200153557e-12, 1.3642993679230386e-10, 1.9345450588681423e-11, 1.439566937877501e-10, 1.0]
+Block 0 top-8 heads: [7, 2, 1, 6, 4, 5, 0, 3]
+Block 1 head probs: [1.0, 4.478156127168953e-13, 1.3036042463733391e-15, 2.075094401408087e-16, 1.3352529802321267e-13, 1.996570964113431e-11, 9.945641485126656e-15, 5.923428031574937e-15]
+Block 1 top-8 heads: [0, 5, 1, 4, 6, 7, 2, 3]
+Block 2 head probs: [1.4930543882133145e-18, 1.0629194770690051e-16, 5.889148643290133e-26, 7.475981084497827e-16, 7.038054806579754e-23, 1.0, 2.714742663901564e-19, 4.210089610268142e-09]
+Block 2 top-8 heads: [5, 7, 3, 1, 0, 6, 4, 2]
+Block 3 head probs: [3.2423295819039577e-12, 5.412637094710966e-14, 2.4849586277575497e-10, 3.0776634013706827e-18, 1.0, 2.9912742421922545e-11, 1.0821100959734764e-11, 2.1752977197309065e-09]
+Block 3 top-8 heads: [4, 7, 2, 5, 6, 0, 1, 3]
+
+==============================
+TEST FINISHED
+==============================
