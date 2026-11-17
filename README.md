@@ -201,7 +201,7 @@ If you find BudgetFormer useful in your research, please cite the following subm
 ```bibtex
 @inproceedings{mbaye2027budgetformer,
   title={BudgetFormer: Adaptive Head Budgeting for Efficient Multi-Head Attention},
-  author={Mbaye, Abdoulaye and Faye, Bilal and Azzag, Hanane and Lebbah, Mustapha},
+  author={Mbaye Abdoulaye,  Faye Bilal, Azzag Hanane and Lebbah Mustapha},
   booktitle={European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
   year={2027},
   note={Submitted / Under review}
