@@ -25,17 +25,19 @@
 
 ---
 
-## 2. Benchmark Evaluation Results (Official Paper Results)
+## 2. Benchmark Evaluation Results (Paper Submission Results)
 
 ### Main Results
 
-| Dataset | Standard Transformer Acc | BudgetFormer Acc | Transformer FLOPs ($10^{12}$) | BudgetFormer FLOPs ($10^{12}$) | Transformer CO2 (g) | BudgetFormer CO2 (g) | Mean Budget ($s_{\text{mean}}$) |
+| Dataset | Standard Transformer Acc | BudgetFormer Acc | Transformer FLOPs ($10^{12}$) | BudgetFormer FLOPs ($10^{12}$) | Transformer Est. CO2 (g) | BudgetFormer Est. CO2 (g) | Mean Budget ($s_{\text{mean}}$) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **DBpedia** | 0.9830 | **0.9859** | 44.0 | **42.6** | 0.1468 | **0.1420** | 0.085 |
 | **AG News** | **0.9099** | 0.9022 | 4.78 | **4.65** | 0.0159 | **0.0155** | 0.212 |
 | **IMDB** | 0.8354 | **0.8356** | 161 | **145** | 0.5376 | **0.4840** | 0.601 |
 | **SNLI** | 0.7835 | **0.8106** | 6.18 | **6.05** | 0.0206 | **0.0202** | 0.364 |
 | **Yelp** | 0.5810 | **0.6190** | 323 | **258** | 1.0751 | **0.8591** | 0.198 |
+
+*Note: Reported FLOPs and memory gains represent theoretical computational complexity under sparse execution. Carbon emission numbers are theoretical model-based estimations (not empirical wattmeter measurements).*
 
 ### Ablation Study
 
@@ -49,16 +51,23 @@
 
 ---
 
-## 3. Core Scientific Insights
+## 3. Implementation and Methodology Details
 
-1. **Over-parameterization of Standard Multi-Head Attention**:
-   Empirical evaluation reveals that increasing the number of attention heads yields marginal accuracy improvements across multiple text classification and NLI benchmarks. Standard architectures frequently over-allocate attention heads without proportional capacity gains.
+1. **Architecture Configurations**:
+   - Official paper results: 4 layers (blocks), 8 attention heads, $d_{\text{model}} = 768$.
+   - Exploratory POC configuration: 6 layers, 12 attention heads, $d_{\text{model}} = 768$.
 
-2. **Dynamic vs. Fixed Allocation**:
-   BudgetFormer automatically converges to task-dependent computational budgets ($s_{\text{mean}} < 1.0$), matching or outperforming fixed sparsity baselines and dense oracles without requiring manual grid search.
+2. **Entropy Schedule ($\beta_{\text{schedule}}$)**:
+   - Implemented as $\beta(t) = \beta_{\max} (1 - \frac{2t}{T})$, decreasing from $+\beta_{\max}$ to $-\beta_{\max}$.
+   - Early training phase: $+\beta(t)$ encourages high head selection entropy (exploration across all heads).
+   - Late training phase: $-\beta(t)$ penalizes diffuse selections, encouraging peaked head importance and specialization (exploitation).
 
-3. **Computational Efficiency**:
-   Reducing active heads directly reduces quadratic projection and self-attention operations, lowering inference FLOPs, peak activation memory, and overall energy consumption.
+3. **Theoretical vs. Physical Inference Savings**:
+   - Standard PyTorch computes full attention tensors before applying the top-k mask.
+   - Reported savings reflect theoretical complexity and sparse execution potential, distinct from dense GPU tensor kernel latency.
+
+4. **Carbon Footprint**:
+   - Approximated using theoretical FLOPs, A100 GPU power rating (300W), and a grid emission factor ($0.4 \text{ kg CO}_2/\text{kWh}$).
 
 ---
 
@@ -75,4 +84,4 @@ Our experiments show that the proposed adaptive model matches or exceeds the per
 ### Key Contributions:
 1. Empirical evidence demonstrating that multi-head attention is consistently over-parameterized across standard benchmarks.
 2. A dynamic head selection and budget gating mechanism that adapts computation per input sample.
-3. Demonstration of competitive classification performance alongside marked reductions in FLOPs, memory footprint, and estimated carbon emissions.
+3. Demonstration of competitive classification performance alongside marked reductions in theoretical FLOPs, memory footprint, and estimated carbon emissions.
